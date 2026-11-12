@@ -1,0 +1,28 @@
+{
+  "id": "contoh",
+  "voice": "alloy",
+  "instruct": "male, young adult, moderate pitch",
+  "language": "id",
+  "speed": 1.0,
+  "padSeconds": 0,
+  "scenes": [
+    {
+      "id": "01-deadline",
+      "text": "Tugasnya dikumpulin besok, tapi kok malah ngantuk?",
+      "shot": "kamar malam, melirik jam, ngantuk",
+      "seed": 7
+    },
+    {
+      "id": "02-judul",
+      "text": "Terus, kenapa sih kita suka banget nunda-nunda?",
+      "shot": "TitleCard indigo",
+      "seed": 42
+    },
+    {
+      "id": "03-dopamin",
+      "text": "Soalnya, otak kita doyan hadiah instan. Kayak notifikasi ini.",
+      "shot": "sofa, HP, notifikasi, label DOPAMIN"
+    }
+  ],
+  "seed": 42
+}

@@ -1,0 +1,36 @@
+{
+  "id": "contoh",
+  "fps": 30,
+  "durationInFrames": 233,
+  "scenes": [
+    {
+      "id": "01-deadline",
+      "text": "Tugasnya dikumpulin besok, tapi kok malah ngantuk?",
+      "shot": "kamar malam, melirik jam, ngantuk",
+      "seed": 7,
+      "audio": "voiceover/contoh/01-deadline.wav",
+      "seconds": 2.060875,
+      "from": 0,
+      "durationInFrames": 62
+    },
+    {
+      "id": "02-judul",
+      "text": "Terus, kenapa sih kita suka banget nunda-nunda?",
+      "shot": "TitleCard indigo",
+      "seed": 42,
+      "audio": "voiceover/contoh/02-judul.wav",
+      "seconds": 2.505458,
+      "from": 62,
+      "durationInFrames": 76
+    },
+    {
+      "id": "03-dopamin",
+      "text": "Soalnya, otak kita doyan hadiah instan. Kayak notifikasi ini.",
+      "shot": "sofa, HP, notifikasi, label DOPAMIN",
+      "audio": "voiceover/contoh/03-dopamin.wav",
+      "seconds": 3.144042,
+      "from": 138,
+      "durationInFrames": 95
+    }
+  ]
+}

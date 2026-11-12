@@ -1,0 +1,60 @@
+{
+  "id": "sadap",
+  "format": "vertical 1080x1920, ~60 s",
+  "voice": "alloy",
+  "language": "id",
+  "speed": 1.0,
+  "padSeconds": 0,
+  "seed": 42,
+  "scenes": [
+    {
+      "id": "01-hook",
+      "text": "Lagi telepon, tiba-tiba ada suara kresek. Langsung mikir: jangan-jangan HP aku disadap?",
+      "shot": "kamar, karakter telepon (HP di telinga), ikon gelombang suara 'kresek' patah-patah, lalu mata melirik curiga ke HP"
+    },
+    {
+      "id": "02-tanya",
+      "text": "Sebenernya, HP orang biasa bisa disadap nggak, sih?",
+      "shot": "TitleCard 'HP kamu bisa disadap?' (fontSize 180, 2-3 baris)"
+    },
+    {
+      "id": "03-resmi",
+      "text": "Oke, ada dua jenis. Pertama, penyadapan resmi, cuma boleh buat penegakan hukum, atas permintaan aparat.",
+      "shot": "angka 1 + menara BTS operator, garis sinyal ke gedung berlogo palu hukum generik (tanpa logo instansi asli), LabelPill 'PENEGAKAN HUKUM'",
+      "source": "UU ITE Pasal 31 ayat (3); Putusan MK 20/PUU-XIV/2016 — https://www.hukumonline.com/berita/baca/lt580889815831f/bukti-elektronik-dan-prosedur-perolehan-perlu-diatur-dalam-sistem-peradilan ; https://en.mkri.id/news/details/2011-02-28/Arrangement_on_Wiring_by_Government_Regulation,_Unconstitutional"
+    },
+    {
+      "id": "04-mata",
+      "text": "Kedua, aplikasi mata-mata. Yang paling canggih bisa masuk tanpa diklik, tapi targetnya orang tertentu, kayak jurnalis dan aktivis.",
+      "shot": "angka 2 + HP (punggung menghadap kamera) dengan ikon mata kecil menyusup lewat pesan; papan target berisi ikon mikrofon jurnalis & megafon aktivis",
+      "source": "Citizen Lab / Amnesty Security Lab, Pegasus zero-click — https://citizenlab.ca/tag/NSO-Group/"
+    },
+    {
+      "id": "05-mitos",
+      "text": "Nah, suara kresek, baterai boros, atau HP panas? Biasanya itu hal biasa, bukan tanda disadap.",
+      "shot": "tiga kartu mitos (gelombang kresek, baterai, termometer) dicap 'MITOS'; satu fakta kecil: cek Setelan > Baterai",
+      "source": "Malwarebytes & Quick Heal: gejala ini bisa karena hal biasa, bukan bukti — https://www.malwarebytes.com/cybersecurity/basics/how-to-know-if-phone-is-tapped-or-tracked"
+    },
+    {
+      "id": "06-twist",
+      "text": "Tapi anehnya, ancaman paling nyata buat kita malah datang dari chat sendiri.",
+      "shot": "zoom ke bubble chat masuk dari nomor asing (aplikasi chat generik, warna THEME, bukan logo WhatsApp)"
+    },
+    {
+      "id": "07-apk",
+      "text": "File undangan nikah atau foto paket dari nomor asing, ternyata aplikasi yang nyuri kode OTP dan nguras rekening.",
+      "shot": "file 'Undangan Pernikahan.APK' dibuka -> kode OTP terbang keluar dari HP -> ikon saldo turun; notif keluar DARI HP (aturan realisme 5)",
+      "source": "Modus APK undangan nikah, Kominfo minta jangan dibuka — https://teknologi.bisnis.com/read/20230130/84/1622798/ini-sikap-kemenkominfo-soal-undangan-nikah-format-apk-di-whatsapp ; https://inet.detik.com/security/d-6537689/awas-penipuan-undangan-pernikahan-di-wa-bisa-kuras-rekening"
+    },
+    {
+      "id": "08-tips",
+      "text": "Simpelnya, jangan pasang aplikasi dari chat, jangan kasih kode OTP ke siapa pun, dan nyalakan verifikasi dua langkah.",
+      "shot": "checklist 3 item muncul satu per satu dengan centang + SFX pluck"
+    },
+    {
+      "id": "09-close",
+      "text": "Jadi, ya, kamu pernah dapet undangan aneh kayak gini? Tulis di komentar.",
+      "shot": "karakter memegang HP, mengangkat alis ke kamera; teks besar 'pernah dapet?' sebagai pancingan komentar"
+    }
+  ]
+}

@@ -1,0 +1,832 @@
+{
+ "id": "sadap",
+ "fps": 30,
+ "duration": 60.447313,
+ "audio": "voiceover/sadap/full.mp3",
+ "scenes": [
+  {
+   "id": "01-hook",
+   "text": "Lagi telepon, tiba-tiba ada suara kresek. Langsung mikir: jangan-jangan HP aku disadap?",
+   "start": 0.0,
+   "end": 7.186
+  },
+  {
+   "id": "02-tanya",
+   "text": "Sebenernya, HP orang biasa bisa disadap nggak, sih?",
+   "start": 7.186,
+   "end": 10.849
+  },
+  {
+   "id": "03-resmi",
+   "text": "Oke, ada dua jenis. Pertama, penyadapan resmi, cuma boleh buat penegakan hukum, atas permintaan aparat.",
+   "start": 10.849,
+   "end": 18.088
+  },
+  {
+   "id": "04-mata",
+   "text": "Kedua, aplikasi mata-mata. Yang paling canggih bisa masuk tanpa diklik, tapi targetnya orang tertentu, kayak jurnalis dan aktivis.",
+   "start": 18.088,
+   "end": 27.196
+  },
+  {
+   "id": "05-mitos",
+   "text": "Nah, suara kresek, baterai boros, atau HP panas? Biasanya itu hal biasa, bukan tanda disadap.",
+   "start": 27.196,
+   "end": 34.838
+  },
+  {
+   "id": "06-twist",
+   "text": "Tapi anehnya, ancaman paling nyata buat kita malah datang dari chat sendiri.",
+   "start": 34.838,
+   "end": 40.243
+  },
+  {
+   "id": "07-apk",
+   "text": "File undangan nikah atau foto paket dari nomor asing, ternyata aplikasi yang nyuri kode OTP dan nguras rekening.",
+   "start": 40.243,
+   "end": 47.577
+  },
+  {
+   "id": "08-tips",
+   "text": "Simpelnya, jangan pasang aplikasi dari chat, jangan kasih kode OTP ke siapa pun, dan nyalakan verifikasi dua langkah.",
+   "start": 47.577,
+   "end": 55.523
+  },
+  {
+   "id": "09-close",
+   "text": "Jadi, ya, kamu pernah dapet undangan aneh kayak gini? Tulis di komentar.",
+   "start": 55.523,
+   "end": 60.447
+  }
+ ],
+ "captions": [
+  {
+   "w": "Lagi",
+   "s": 0.0,
+   "e": 0.34,
+   "scene": 0
+  },
+  {
+   "w": "telepon,",
+   "s": 0.34,
+   "e": 1.0,
+   "scene": 0
+  },
+  {
+   "w": "tiba-tiba",
+   "s": 1.38,
+   "e": 2.1,
+   "scene": 0
+  },
+  {
+   "w": "ada",
+   "s": 2.1,
+   "e": 2.44,
+   "scene": 0
+  },
+  {
+   "w": "suara",
+   "s": 2.44,
+   "e": 2.74,
+   "scene": 0
+  },
+  {
+   "w": "kresek.",
+   "s": 2.74,
+   "e": 3.3,
+   "scene": 0
+  },
+  {
+   "w": "Langsung",
+   "s": 3.7,
+   "e": 4.04,
+   "scene": 0
+  },
+  {
+   "w": "mikir:",
+   "s": 4.04,
+   "e": 4.54,
+   "scene": 0
+  },
+  {
+   "w": "jangan-jangan",
+   "s": 4.92,
+   "e": 5.68,
+   "scene": 0
+  },
+  {
+   "w": "HP",
+   "s": 5.68,
+   "e": 6.12,
+   "scene": 0
+  },
+  {
+   "w": "aku",
+   "s": 6.12,
+   "e": 6.36,
+   "scene": 0
+  },
+  {
+   "w": "disadap?",
+   "s": 6.36,
+   "e": 6.925,
+   "scene": 0
+  },
+  {
+   "w": "Sebenernya,",
+   "s": 7.447,
+   "e": 8.12,
+   "scene": 1
+  },
+  {
+   "w": "HP",
+   "s": 8.12,
+   "e": 8.8,
+   "scene": 1
+  },
+  {
+   "w": "orang",
+   "s": 8.8,
+   "e": 9.0,
+   "scene": 1
+  },
+  {
+   "w": "biasa",
+   "s": 9.0,
+   "e": 9.44,
+   "scene": 1
+  },
+  {
+   "w": "bisa",
+   "s": 9.44,
+   "e": 9.66,
+   "scene": 1
+  },
+  {
+   "w": "disadap",
+   "s": 9.66,
+   "e": 10.2,
+   "scene": 1
+  },
+  {
+   "w": "nggak,",
+   "s": 10.2,
+   "e": 10.34,
+   "scene": 1
+  },
+  {
+   "w": "sih?",
+   "s": 10.34,
+   "e": 10.54,
+   "scene": 1
+  },
+  {
+   "w": "Oke,",
+   "s": 11.156,
+   "e": 11.38,
+   "scene": 2
+  },
+  {
+   "w": "ada",
+   "s": 11.7,
+   "e": 11.94,
+   "scene": 2
+  },
+  {
+   "w": "dua",
+   "s": 11.94,
+   "e": 12.1,
+   "scene": 2
+  },
+  {
+   "w": "jenis.",
+   "s": 12.1,
+   "e": 12.54,
+   "scene": 2
+  },
+  {
+   "w": "Pertama,",
+   "s": 12.82,
+   "e": 13.22,
+   "scene": 2
+  },
+  {
+   "w": "penyadapan",
+   "s": 13.58,
+   "e": 13.96,
+   "scene": 2
+  },
+  {
+   "w": "resmi,",
+   "s": 13.96,
+   "e": 14.4,
+   "scene": 2
+  },
+  {
+   "w": "cuma",
+   "s": 14.78,
+   "e": 14.98,
+   "scene": 2
+  },
+  {
+   "w": "boleh",
+   "s": 14.98,
+   "e": 15.28,
+   "scene": 2
+  },
+  {
+   "w": "buat",
+   "s": 15.28,
+   "e": 15.54,
+   "scene": 2
+  },
+  {
+   "w": "penegakan",
+   "s": 15.54,
+   "e": 15.96,
+   "scene": 2
+  },
+  {
+   "w": "hukum,",
+   "s": 15.96,
+   "e": 16.42,
+   "scene": 2
+  },
+  {
+   "w": "atas",
+   "s": 16.42,
+   "e": 17.02,
+   "scene": 2
+  },
+  {
+   "w": "permintaan",
+   "s": 17.02,
+   "e": 17.5,
+   "scene": 2
+  },
+  {
+   "w": "aparat.",
+   "s": 17.5,
+   "e": 17.84,
+   "scene": 2
+  },
+  {
+   "w": "Kedua,",
+   "s": 18.296,
+   "e": 18.62,
+   "scene": 3
+  },
+  {
+   "w": "aplikasi",
+   "s": 19.1,
+   "e": 19.58,
+   "scene": 3
+  },
+  {
+   "w": "mata-mata.",
+   "s": 19.58,
+   "e": 20.14,
+   "scene": 3
+  },
+  {
+   "w": "Yang",
+   "s": 20.5,
+   "e": 20.7,
+   "scene": 3
+  },
+  {
+   "w": "paling",
+   "s": 20.7,
+   "e": 21.1,
+   "scene": 3
+  },
+  {
+   "w": "canggih",
+   "s": 21.1,
+   "e": 21.6,
+   "scene": 3
+  },
+  {
+   "w": "bisa",
+   "s": 21.6,
+   "e": 21.86,
+   "scene": 3
+  },
+  {
+   "w": "masuk",
+   "s": 21.86,
+   "e": 22.3,
+   "scene": 3
+  },
+  {
+   "w": "tanpa",
+   "s": 22.3,
+   "e": 22.62,
+   "scene": 3
+  },
+  {
+   "w": "diklik,",
+   "s": 22.62,
+   "e": 23.02,
+   "scene": 3
+  },
+  {
+   "w": "tapi",
+   "s": 23.3,
+   "e": 23.7,
+   "scene": 3
+  },
+  {
+   "w": "targetnya",
+   "s": 23.7,
+   "e": 24.34,
+   "scene": 3
+  },
+  {
+   "w": "orang",
+   "s": 24.34,
+   "e": 24.5,
+   "scene": 3
+  },
+  {
+   "w": "tertentu,",
+   "s": 24.5,
+   "e": 25.14,
+   "scene": 3
+  },
+  {
+   "w": "kayak",
+   "s": 25.3,
+   "e": 25.5,
+   "scene": 3
+  },
+  {
+   "w": "jurnalis",
+   "s": 25.5,
+   "e": 26.06,
+   "scene": 3
+  },
+  {
+   "w": "dan",
+   "s": 26.06,
+   "e": 26.32,
+   "scene": 3
+  },
+  {
+   "w": "aktivis.",
+   "s": 26.32,
+   "e": 26.84,
+   "scene": 3
+  },
+  {
+   "w": "Nah,",
+   "s": 27.418,
+   "e": 27.6,
+   "scene": 4
+  },
+  {
+   "w": "suara",
+   "s": 27.94,
+   "e": 28.2,
+   "scene": 4
+  },
+  {
+   "w": "kresek,",
+   "s": 28.2,
+   "e": 28.76,
+   "scene": 4
+  },
+  {
+   "w": "baterai",
+   "s": 29.02,
+   "e": 29.32,
+   "scene": 4
+  },
+  {
+   "w": "boros,",
+   "s": 29.32,
+   "e": 29.88,
+   "scene": 4
+  },
+  {
+   "w": "atau",
+   "s": 29.88,
+   "e": 30.36,
+   "scene": 4
+  },
+  {
+   "w": "HP",
+   "s": 30.36,
+   "e": 30.84,
+   "scene": 4
+  },
+  {
+   "w": "panas?",
+   "s": 30.84,
+   "e": 31.4,
+   "scene": 4
+  },
+  {
+   "w": "Biasanya",
+   "s": 31.54,
+   "e": 32.24,
+   "scene": 4
+  },
+  {
+   "w": "itu",
+   "s": 32.24,
+   "e": 32.58,
+   "scene": 4
+  },
+  {
+   "w": "hal",
+   "s": 32.58,
+   "e": 32.76,
+   "scene": 4
+  },
+  {
+   "w": "biasa,",
+   "s": 32.76,
+   "e": 33.2,
+   "scene": 4
+  },
+  {
+   "w": "bukan",
+   "s": 33.5,
+   "e": 33.86,
+   "scene": 4
+  },
+  {
+   "w": "tanda",
+   "s": 33.86,
+   "e": 34.16,
+   "scene": 4
+  },
+  {
+   "w": "disadap.",
+   "s": 34.16,
+   "e": 34.653,
+   "scene": 4
+  },
+  {
+   "w": "Tapi",
+   "s": 35.024,
+   "e": 35.26,
+   "scene": 5
+  },
+  {
+   "w": "anehnya,",
+   "s": 35.26,
+   "e": 36.18,
+   "scene": 5
+  },
+  {
+   "w": "ancaman",
+   "s": 36.48,
+   "e": 36.82,
+   "scene": 5
+  },
+  {
+   "w": "paling",
+   "s": 36.82,
+   "e": 37.12,
+   "scene": 5
+  },
+  {
+   "w": "nyata",
+   "s": 37.12,
+   "e": 37.48,
+   "scene": 5
+  },
+  {
+   "w": "buat",
+   "s": 37.48,
+   "e": 37.76,
+   "scene": 5
+  },
+  {
+   "w": "kita",
+   "s": 37.76,
+   "e": 38.18,
+   "scene": 5
+  },
+  {
+   "w": "malah",
+   "s": 38.18,
+   "e": 38.68,
+   "scene": 5
+  },
+  {
+   "w": "datang",
+   "s": 38.68,
+   "e": 39.1,
+   "scene": 5
+  },
+  {
+   "w": "dari",
+   "s": 39.1,
+   "e": 39.3,
+   "scene": 5
+  },
+  {
+   "w": "chat",
+   "s": 39.3,
+   "e": 39.48,
+   "scene": 5
+  },
+  {
+   "w": "sendiri.",
+   "s": 39.48,
+   "e": 39.94,
+   "scene": 5
+  },
+  {
+   "w": "File",
+   "s": 40.447,
+   "e": 40.56,
+   "scene": 6
+  },
+  {
+   "w": "undangan",
+   "s": 40.56,
+   "e": 40.9,
+   "scene": 6
+  },
+  {
+   "w": "nikah",
+   "s": 40.9,
+   "e": 41.44,
+   "scene": 6
+  },
+  {
+   "w": "atau",
+   "s": 41.44,
+   "e": 41.72,
+   "scene": 6
+  },
+  {
+   "w": "foto",
+   "s": 41.72,
+   "e": 41.96,
+   "scene": 6
+  },
+  {
+   "w": "paket",
+   "s": 41.96,
+   "e": 42.42,
+   "scene": 6
+  },
+  {
+   "w": "dari",
+   "s": 42.42,
+   "e": 42.62,
+   "scene": 6
+  },
+  {
+   "w": "nomor",
+   "s": 42.62,
+   "e": 42.9,
+   "scene": 6
+  },
+  {
+   "w": "asing,",
+   "s": 42.9,
+   "e": 43.32,
+   "scene": 6
+  },
+  {
+   "w": "ternyata",
+   "s": 43.58,
+   "e": 44.18,
+   "scene": 6
+  },
+  {
+   "w": "aplikasi",
+   "s": 44.18,
+   "e": 44.92,
+   "scene": 6
+  },
+  {
+   "w": "yang",
+   "s": 44.92,
+   "e": 45.12,
+   "scene": 6
+  },
+  {
+   "w": "nyuri",
+   "s": 45.12,
+   "e": 45.42,
+   "scene": 6
+  },
+  {
+   "w": "kode",
+   "s": 45.42,
+   "e": 45.66,
+   "scene": 6
+  },
+  {
+   "w": "OTP",
+   "s": 45.66,
+   "e": 46.14,
+   "scene": 6
+  },
+  {
+   "w": "dan",
+   "s": 46.14,
+   "e": 46.44,
+   "scene": 6
+  },
+  {
+   "w": "nguras",
+   "s": 46.44,
+   "e": 46.84,
+   "scene": 6
+  },
+  {
+   "w": "rekening.",
+   "s": 46.84,
+   "e": 47.32,
+   "scene": 6
+  },
+  {
+   "w": "Simpelnya,",
+   "s": 47.785,
+   "e": 48.34,
+   "scene": 7
+  },
+  {
+   "w": "jangan",
+   "s": 48.76,
+   "e": 49.02,
+   "scene": 7
+  },
+  {
+   "w": "pasang",
+   "s": 49.02,
+   "e": 49.42,
+   "scene": 7
+  },
+  {
+   "w": "aplikasi",
+   "s": 49.42,
+   "e": 49.94,
+   "scene": 7
+  },
+  {
+   "w": "dari",
+   "s": 49.94,
+   "e": 50.14,
+   "scene": 7
+  },
+  {
+   "w": "chat,",
+   "s": 50.14,
+   "e": 50.46,
+   "scene": 7
+  },
+  {
+   "w": "jangan",
+   "s": 50.7,
+   "e": 51.12,
+   "scene": 7
+  },
+  {
+   "w": "kasih",
+   "s": 51.12,
+   "e": 51.36,
+   "scene": 7
+  },
+  {
+   "w": "kode",
+   "s": 51.36,
+   "e": 51.6,
+   "scene": 7
+  },
+  {
+   "w": "OTP",
+   "s": 51.6,
+   "e": 52.08,
+   "scene": 7
+  },
+  {
+   "w": "ke",
+   "s": 52.08,
+   "e": 52.26,
+   "scene": 7
+  },
+  {
+   "w": "siapa",
+   "s": 52.26,
+   "e": 52.57,
+   "scene": 7
+  },
+  {
+   "w": "pun,",
+   "s": 52.57,
+   "e": 52.88,
+   "scene": 7
+  },
+  {
+   "w": "dan",
+   "s": 52.88,
+   "e": 53.36,
+   "scene": 7
+  },
+  {
+   "w": "nyalakan",
+   "s": 53.36,
+   "e": 53.9,
+   "scene": 7
+  },
+  {
+   "w": "verifikasi",
+   "s": 53.9,
+   "e": 54.66,
+   "scene": 7
+  },
+  {
+   "w": "dua",
+   "s": 54.66,
+   "e": 54.9,
+   "scene": 7
+  },
+  {
+   "w": "langkah.",
+   "s": 54.9,
+   "e": 55.3,
+   "scene": 7
+  },
+  {
+   "w": "Jadi,",
+   "s": 55.713,
+   "e": 56.02,
+   "scene": 8
+  },
+  {
+   "w": "ya,",
+   "s": 56.46,
+   "e": 56.74,
+   "scene": 8
+  },
+  {
+   "w": "kamu",
+   "s": 57.06,
+   "e": 57.3,
+   "scene": 8
+  },
+  {
+   "w": "pernah",
+   "s": 57.3,
+   "e": 57.62,
+   "scene": 8
+  },
+  {
+   "w": "dapet",
+   "s": 57.62,
+   "e": 57.9,
+   "scene": 8
+  },
+  {
+   "w": "undangan",
+   "s": 57.9,
+   "e": 58.32,
+   "scene": 8
+  },
+  {
+   "w": "aneh",
+   "s": 58.32,
+   "e": 58.6,
+   "scene": 8
+  },
+  {
+   "w": "kayak",
+   "s": 58.6,
+   "e": 58.74,
+   "scene": 8
+  },
+  {
+   "w": "gini?",
+   "s": 58.74,
+   "e": 59.06,
+   "scene": 8
+  },
+  {
+   "w": "Tulis",
+   "s": 59.24,
+   "e": 59.62,
+   "scene": 8
+  },
+  {
+   "w": "di",
+   "s": 59.62,
+   "e": 59.72,
+   "scene": 8
+  },
+  {
+   "w": "komentar.",
+   "s": 59.72,
+   "e": 60.14,
+   "scene": 8
+  }
+ ]
+}
