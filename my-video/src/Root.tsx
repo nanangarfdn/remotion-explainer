@@ -4,6 +4,12 @@ import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { EXPLAINER_DEMO_DURATION, ExplainerDemo } from "./explainer/ExplainerDemo";
 import { SADAP_DURATION, Sadap } from "./sadap/Sadap";
+import { KOTADESA_DURATION, KotaDesa } from "./shorts/KotaDesa";
+import { HAPE_DURATION, Hape } from "./shorts/Hape";
+import { HAPE2M_DURATION, Hape2m } from "./hape2m/Hape2m";
+import { BOHONG_DURATION, Bohong } from "./shorts/Bohong";
+import { CharacterLab } from "./lab/CharacterLab";
+import { PULAU_DURATION, Pulau } from "./shorts/Pulau";
 import { CONTOH_DURATION, Contoh, ContohVertical } from "./contoh/Contoh";
 
 // Each <Composition> is an entry in the sidebar!
@@ -77,6 +83,14 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+      <Folder name="Shorts">
+        <Composition id="Pulau" component={Pulau} durationInFrames={PULAU_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="KotaDesa" component={KotaDesa} durationInFrames={KOTADESA_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Hape" component={Hape} durationInFrames={HAPE_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Hape2m" component={Hape2m} durationInFrames={HAPE2M_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Bohong" component={Bohong} durationInFrames={BOHONG_DURATION} fps={30} width={1080} height={1920} />
+      </Folder>
+      <Composition id="CharacterLab" component={CharacterLab} durationInFrames={30} fps={30} width={1080} height={1920} />
       <Composition id="Sadap" component={Sadap} durationInFrames={SADAP_DURATION} fps={30} width={1080} height={1920} />
     </>
   );

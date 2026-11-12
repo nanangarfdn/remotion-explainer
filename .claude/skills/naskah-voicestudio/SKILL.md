@@ -25,6 +25,12 @@ description: Write Indonesian explainer narration scripts (naskah) in the casual
 | 7 | Fun fact | 5–10% | History or culture tidbit |
 | 8 | Close | 5% | Reflective call to action plus a callback joke to the hook. Use your **own** signature sign-off, not the channel's |
 
+### Hook & close rules (50 top Kok Bisa? videos, `riset/kokbisa/POLA-HOOK-CLOSING.md`)
+
+- Pick ONE hook type: everyday moment (most common, 18/50), shocking number + local comparison (9), "what school/films got wrong" (7), cold question with 2–3 escalating follow-ups (5), one-person story (3), analogy (rest).
+- Say the title question by **10–27 s (median 19 s)**, after a "Tapi …" pivot (28/50). Start answering right after; no channel intro.
+- Close in 45–75 s: one-line recap ("Ya, itu dia …") → what it means for us / Indonesia → moral or zoom-out → calm practical advice (no fear-mongering) → open question for the comments → our own sign-off.
+
 - **Big numbers get a relatable comparison**: "600 juta orang, setara dua kali penduduk Indonesia".
 - **Facts need a source**: every "ada penelitian yang nunjukin…" line gets a `source` field with a real URL. Never invent numbers or studies. If unsure, ask the user or search.
 - Sponsor segment (if any): in the last 60–90 s, after the close of the main story.

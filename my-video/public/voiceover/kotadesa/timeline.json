@@ -1,0 +1,400 @@
+{
+ "id": "kotadesa",
+ "fps": 30,
+ "duration": 28.760813,
+ "audio": "voiceover/kotadesa/full.mp3",
+ "scenes": [
+  {
+   "id": "01-a",
+   "text": "Bangun pagi, dengerin ayam berkokok, udara segar, tetangga nyapa dari teras.",
+   "start": 0.0,
+   "end": 6.293
+  },
+  {
+   "id": "02-b",
+   "text": "Atau bangun pagi, dengerin klakson, kejar kereta, tapi semua yang kamu mau tinggal pesan.",
+   "start": 6.293,
+   "end": 13.731
+  },
+  {
+   "id": "03-c",
+   "text": "Dua-duanya kedengeran enak, dua-duanya juga punya harga.",
+   "start": 13.731,
+   "end": 17.777
+  },
+  {
+   "id": "04-tanya",
+   "text": "Tapi kalau harus milih satu buat seumur hidup, mending mana: hidup di kota, atau di desa?",
+   "start": 17.777,
+   "end": 23.839
+  },
+  {
+   "id": "05-close",
+   "text": "Dan apa kata ilmu pengetahuan soal mana yang bikin kita lebih bahagia?",
+   "start": 23.839,
+   "end": 28.761
+  }
+ ],
+ "captions": [
+  {
+   "w": "Bangun",
+   "s": 0.0,
+   "e": 0.36,
+   "scene": 0
+  },
+  {
+   "w": "pagi,",
+   "s": 0.36,
+   "e": 1.0,
+   "scene": 0
+  },
+  {
+   "w": "dengerin",
+   "s": 1.24,
+   "e": 1.64,
+   "scene": 0
+  },
+  {
+   "w": "ayam",
+   "s": 1.64,
+   "e": 1.88,
+   "scene": 0
+  },
+  {
+   "w": "berkokok,",
+   "s": 1.88,
+   "e": 2.76,
+   "scene": 0
+  },
+  {
+   "w": "udara",
+   "s": 2.94,
+   "e": 3.34,
+   "scene": 0
+  },
+  {
+   "w": "segar,",
+   "s": 3.34,
+   "e": 4.08,
+   "scene": 0
+  },
+  {
+   "w": "tetangga",
+   "s": 4.4,
+   "e": 4.8,
+   "scene": 0
+  },
+  {
+   "w": "nyapa",
+   "s": 4.8,
+   "e": 5.24,
+   "scene": 0
+  },
+  {
+   "w": "dari",
+   "s": 5.24,
+   "e": 5.52,
+   "scene": 0
+  },
+  {
+   "w": "teras.",
+   "s": 5.52,
+   "e": 6.04,
+   "scene": 0
+  },
+  {
+   "w": "Atau",
+   "s": 6.508,
+   "e": 7.16,
+   "scene": 1
+  },
+  {
+   "w": "bangun",
+   "s": 7.16,
+   "e": 7.72,
+   "scene": 1
+  },
+  {
+   "w": "pagi,",
+   "s": 7.72,
+   "e": 8.26,
+   "scene": 1
+  },
+  {
+   "w": "dengerin",
+   "s": 8.56,
+   "e": 8.92,
+   "scene": 1
+  },
+  {
+   "w": "klakson,",
+   "s": 8.92,
+   "e": 9.52,
+   "scene": 1
+  },
+  {
+   "w": "kejar",
+   "s": 9.76,
+   "e": 10.02,
+   "scene": 1
+  },
+  {
+   "w": "kereta,",
+   "s": 10.02,
+   "e": 10.56,
+   "scene": 1
+  },
+  {
+   "w": "tapi",
+   "s": 10.86,
+   "e": 11.22,
+   "scene": 1
+  },
+  {
+   "w": "semua",
+   "s": 11.22,
+   "e": 11.78,
+   "scene": 1
+  },
+  {
+   "w": "yang",
+   "s": 11.78,
+   "e": 11.96,
+   "scene": 1
+  },
+  {
+   "w": "kamu",
+   "s": 11.96,
+   "e": 12.22,
+   "scene": 1
+  },
+  {
+   "w": "mau",
+   "s": 12.22,
+   "e": 12.52,
+   "scene": 1
+  },
+  {
+   "w": "tinggal",
+   "s": 12.52,
+   "e": 13.0,
+   "scene": 1
+  },
+  {
+   "w": "pesan.",
+   "s": 13.0,
+   "e": 13.52,
+   "scene": 1
+  },
+  {
+   "w": "Dua-duanya",
+   "s": 13.873,
+   "e": 14.48,
+   "scene": 2
+  },
+  {
+   "w": "kedengeran",
+   "s": 14.48,
+   "e": 14.98,
+   "scene": 2
+  },
+  {
+   "w": "enak,",
+   "s": 14.98,
+   "e": 15.56,
+   "scene": 2
+  },
+  {
+   "w": "dua-duanya",
+   "s": 15.82,
+   "e": 16.48,
+   "scene": 2
+  },
+  {
+   "w": "juga",
+   "s": 16.48,
+   "e": 16.74,
+   "scene": 2
+  },
+  {
+   "w": "punya",
+   "s": 16.74,
+   "e": 16.96,
+   "scene": 2
+  },
+  {
+   "w": "harga.",
+   "s": 16.96,
+   "e": 17.48,
+   "scene": 2
+  },
+  {
+   "w": "Tapi",
+   "s": 17.961,
+   "e": 18.28,
+   "scene": 3
+  },
+  {
+   "w": "kalau",
+   "s": 18.28,
+   "e": 18.68,
+   "scene": 3
+  },
+  {
+   "w": "harus",
+   "s": 18.68,
+   "e": 18.96,
+   "scene": 3
+  },
+  {
+   "w": "milih",
+   "s": 18.96,
+   "e": 19.26,
+   "scene": 3
+  },
+  {
+   "w": "satu",
+   "s": 19.26,
+   "e": 19.68,
+   "scene": 3
+  },
+  {
+   "w": "buat",
+   "s": 19.68,
+   "e": 19.94,
+   "scene": 3
+  },
+  {
+   "w": "seumur",
+   "s": 19.94,
+   "e": 20.26,
+   "scene": 3
+  },
+  {
+   "w": "hidup,",
+   "s": 20.26,
+   "e": 20.68,
+   "scene": 3
+  },
+  {
+   "w": "mending",
+   "s": 21.04,
+   "e": 21.2,
+   "scene": 3
+  },
+  {
+   "w": "mana:",
+   "s": 21.2,
+   "e": 21.5,
+   "scene": 3
+  },
+  {
+   "w": "hidup",
+   "s": 21.72,
+   "e": 22.1,
+   "scene": 3
+  },
+  {
+   "w": "di",
+   "s": 22.1,
+   "e": 22.22,
+   "scene": 3
+  },
+  {
+   "w": "kota,",
+   "s": 22.22,
+   "e": 22.64,
+   "scene": 3
+  },
+  {
+   "w": "atau",
+   "s": 22.64,
+   "e": 23.12,
+   "scene": 3
+  },
+  {
+   "w": "di",
+   "s": 23.12,
+   "e": 23.3,
+   "scene": 3
+  },
+  {
+   "w": "desa?",
+   "s": 23.3,
+   "e": 23.66,
+   "scene": 3
+  },
+  {
+   "w": "Dan",
+   "s": 24.014,
+   "e": 24.32,
+   "scene": 4
+  },
+  {
+   "w": "apa",
+   "s": 24.32,
+   "e": 24.78,
+   "scene": 4
+  },
+  {
+   "w": "kata",
+   "s": 24.78,
+   "e": 25.02,
+   "scene": 4
+  },
+  {
+   "w": "ilmu",
+   "s": 25.02,
+   "e": 25.28,
+   "scene": 4
+  },
+  {
+   "w": "pengetahuan",
+   "s": 25.28,
+   "e": 25.98,
+   "scene": 4
+  },
+  {
+   "w": "soal",
+   "s": 25.98,
+   "e": 26.42,
+   "scene": 4
+  },
+  {
+   "w": "mana",
+   "s": 26.42,
+   "e": 26.76,
+   "scene": 4
+  },
+  {
+   "w": "yang",
+   "s": 26.76,
+   "e": 26.98,
+   "scene": 4
+  },
+  {
+   "w": "bikin",
+   "s": 26.98,
+   "e": 27.26,
+   "scene": 4
+  },
+  {
+   "w": "kita",
+   "s": 27.26,
+   "e": 27.56,
+   "scene": 4
+  },
+  {
+   "w": "lebih",
+   "s": 27.56,
+   "e": 27.96,
+   "scene": 4
+  },
+  {
+   "w": "bahagia?",
+   "s": 27.96,
+   "e": 28.56,
+   "scene": 4
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "pulau",
+ "format": "vertical 1080x1920 short, ElevenLabs one take (Serena, v4)",
+ "title": "Apa jadinya kalau Indonesia cuma satu pulau?",
+ "scenes": [
+  {
+   "id": "01-a",
+   "text": "Indonesia punya lebih dari 17.000 pulau."
+  },
+  {
+   "id": "02-b",
+   "text": "Kalau kita mampir ke satu pulau tiap hari, butuh lebih dari 46 tahun buat ngelilingin semuanya."
+  },
+  {
+   "id": "03-c",
+   "text": "Artinya, seumur hidup, kebanyakan dari kita cuma kenal segelintir aja."
+  },
+  {
+   "id": "04-tanya",
+   "text": "Tapi gimana kalau semua pulau itu nyatu, jadi satu daratan raksasa?"
+  },
+  {
+   "id": "05-close",
+   "text": "Kita jadi lebih maju? Mudik jadi lebih gampang? Atau justru kita kehilangan hal yang bikin Indonesia jadi Indonesia?"
+  }
+ ]
+}

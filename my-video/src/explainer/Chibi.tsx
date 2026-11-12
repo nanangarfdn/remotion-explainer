@@ -25,6 +25,7 @@ export const Chibi: React.FC<{
   lap?: string; // trouser colour: draws knees in front of the body (seated, seen from the front)
   typing?: number; // 0…1: forearms jiggle as if typing
   hat?: string; // plain cap colour (no insignia)
+  towel?: string; // towel wrapped over the hair (just showered)
   children?: React.ReactNode; // prop drawn between arms and hands
 }> = ({
   width,
@@ -47,6 +48,7 @@ export const Chibi: React.FC<{
   lap,
   typing = 0,
   hat,
+  towel,
   children,
 }) => {
   const frame = useCurrentFrame();
@@ -147,6 +149,14 @@ export const Chibi: React.FC<{
             <path d="M40 150 L360 150 L380 178 L20 178 Z" fill={hat} />
             <rect x={40} y={150} width={320} height={10} fill="#000" opacity={0.2} />
             <circle cx={200} cy={92} r={20} fill="#FFB020" />
+          </g>
+        ) : null}
+        {towel ? (
+          <g>
+            <path d="M44 176 C22 -30 378 -30 356 176 Q300 120 200 124 Q100 120 44 176 Z" fill={towel} />
+            <path d="M60 150 Q200 96 340 150" stroke="#000" strokeWidth={8} opacity={0.08} fill="none" />
+            <path d="M200 30 Q250 -40 300 0 Q290 50 220 60 Z" fill={towel} />
+            <path d="M226 40 Q262 0 290 8" stroke="#fff" strokeWidth={8} opacity={0.35} fill="none" strokeLinecap="round" />
           </g>
         ) : null}
         <g transform={`translate(0 ${pitch})`}>

@@ -1,0 +1,406 @@
+{
+ "id": "pulau",
+ "fps": 30,
+ "duration": 27.088938,
+ "audio": "voiceover/pulau/full.mp3",
+ "scenes": [
+  {
+   "id": "01-a",
+   "text": "Indonesia punya lebih dari 17.000 pulau.",
+   "start": 0.0,
+   "end": 3.09
+  },
+  {
+   "id": "02-b",
+   "text": "Kalau kita mampir ke satu pulau tiap hari, butuh lebih dari 46 tahun buat ngelilingin semuanya.",
+   "start": 3.09,
+   "end": 9.506
+  },
+  {
+   "id": "03-c",
+   "text": "Artinya, seumur hidup, kebanyakan dari kita cuma kenal segelintir aja.",
+   "start": 9.506,
+   "end": 14.49
+  },
+  {
+   "id": "04-tanya",
+   "text": "Tapi gimana kalau semua pulau itu nyatu, jadi satu daratan raksasa?",
+   "start": 14.49,
+   "end": 19.298
+  },
+  {
+   "id": "05-close",
+   "text": "Kita jadi lebih maju? Mudik jadi lebih gampang? Atau justru kita kehilangan hal yang bikin Indonesia jadi Indonesia?",
+   "start": 19.298,
+   "end": 27.089
+  }
+ ],
+ "captions": [
+  {
+   "w": "Indonesia",
+   "s": 0.0,
+   "e": 0.56,
+   "scene": 0
+  },
+  {
+   "w": "punya",
+   "s": 0.56,
+   "e": 0.96,
+   "scene": 0
+  },
+  {
+   "w": "lebih",
+   "s": 0.96,
+   "e": 1.44,
+   "scene": 0
+  },
+  {
+   "w": "dari",
+   "s": 1.44,
+   "e": 1.72,
+   "scene": 0
+  },
+  {
+   "w": "17.000",
+   "s": 1.72,
+   "e": 2.46,
+   "scene": 0
+  },
+  {
+   "w": "pulau.",
+   "s": 2.46,
+   "e": 2.916,
+   "scene": 0
+  },
+  {
+   "w": "Kalau",
+   "s": 3.264,
+   "e": 3.46,
+   "scene": 1
+  },
+  {
+   "w": "kita",
+   "s": 3.46,
+   "e": 3.7,
+   "scene": 1
+  },
+  {
+   "w": "mampir",
+   "s": 3.7,
+   "e": 4.12,
+   "scene": 1
+  },
+  {
+   "w": "ke",
+   "s": 4.12,
+   "e": 4.22,
+   "scene": 1
+  },
+  {
+   "w": "satu",
+   "s": 4.22,
+   "e": 4.44,
+   "scene": 1
+  },
+  {
+   "w": "pulau",
+   "s": 4.44,
+   "e": 4.76,
+   "scene": 1
+  },
+  {
+   "w": "tiap",
+   "s": 4.76,
+   "e": 5.04,
+   "scene": 1
+  },
+  {
+   "w": "hari,",
+   "s": 5.04,
+   "e": 5.56,
+   "scene": 1
+  },
+  {
+   "w": "butuh",
+   "s": 5.86,
+   "e": 6.22,
+   "scene": 1
+  },
+  {
+   "w": "lebih",
+   "s": 6.22,
+   "e": 6.56,
+   "scene": 1
+  },
+  {
+   "w": "dari",
+   "s": 6.56,
+   "e": 6.82,
+   "scene": 1
+  },
+  {
+   "w": "46",
+   "s": 6.82,
+   "e": 7.44,
+   "scene": 1
+  },
+  {
+   "w": "tahun",
+   "s": 7.44,
+   "e": 8.04,
+   "scene": 1
+  },
+  {
+   "w": "buat",
+   "s": 8.04,
+   "e": 8.32,
+   "scene": 1
+  },
+  {
+   "w": "ngelilingin",
+   "s": 8.32,
+   "e": 8.76,
+   "scene": 1
+  },
+  {
+   "w": "semuanya.",
+   "s": 8.76,
+   "e": 9.28,
+   "scene": 1
+  },
+  {
+   "w": "Artinya,",
+   "s": 9.654,
+   "e": 10.26,
+   "scene": 2
+  },
+  {
+   "w": "seumur",
+   "s": 10.64,
+   "e": 10.92,
+   "scene": 2
+  },
+  {
+   "w": "hidup,",
+   "s": 10.92,
+   "e": 11.44,
+   "scene": 2
+  },
+  {
+   "w": "kebanyakan",
+   "s": 11.54,
+   "e": 12.02,
+   "scene": 2
+  },
+  {
+   "w": "dari",
+   "s": 12.02,
+   "e": 12.22,
+   "scene": 2
+  },
+  {
+   "w": "kita",
+   "s": 12.22,
+   "e": 12.6,
+   "scene": 2
+  },
+  {
+   "w": "cuma",
+   "s": 12.6,
+   "e": 12.94,
+   "scene": 2
+  },
+  {
+   "w": "kenal",
+   "s": 12.94,
+   "e": 13.26,
+   "scene": 2
+  },
+  {
+   "w": "segelintir",
+   "s": 13.26,
+   "e": 13.78,
+   "scene": 2
+  },
+  {
+   "w": "aja.",
+   "s": 13.78,
+   "e": 14.2,
+   "scene": 2
+  },
+  {
+   "w": "Tapi",
+   "s": 14.63,
+   "e": 14.94,
+   "scene": 3
+  },
+  {
+   "w": "gimana",
+   "s": 14.94,
+   "e": 15.7,
+   "scene": 3
+  },
+  {
+   "w": "kalau",
+   "s": 15.7,
+   "e": 15.92,
+   "scene": 3
+  },
+  {
+   "w": "semua",
+   "s": 15.92,
+   "e": 16.18,
+   "scene": 3
+  },
+  {
+   "w": "pulau",
+   "s": 16.18,
+   "e": 16.56,
+   "scene": 3
+  },
+  {
+   "w": "itu",
+   "s": 16.56,
+   "e": 16.72,
+   "scene": 3
+  },
+  {
+   "w": "nyatu,",
+   "s": 16.72,
+   "e": 17.24,
+   "scene": 3
+  },
+  {
+   "w": "jadi",
+   "s": 17.4,
+   "e": 17.68,
+   "scene": 3
+  },
+  {
+   "w": "satu",
+   "s": 17.68,
+   "e": 18.16,
+   "scene": 3
+  },
+  {
+   "w": "daratan",
+   "s": 18.16,
+   "e": 18.6,
+   "scene": 3
+  },
+  {
+   "w": "raksasa?",
+   "s": 18.6,
+   "e": 19.1,
+   "scene": 3
+  },
+  {
+   "w": "Kita",
+   "s": 19.445,
+   "e": 19.6,
+   "scene": 4
+  },
+  {
+   "w": "jadi",
+   "s": 19.6,
+   "e": 19.82,
+   "scene": 4
+  },
+  {
+   "w": "lebih",
+   "s": 19.82,
+   "e": 20.04,
+   "scene": 4
+  },
+  {
+   "w": "maju?",
+   "s": 20.04,
+   "e": 20.46,
+   "scene": 4
+  },
+  {
+   "w": "Mudik",
+   "s": 20.72,
+   "e": 21.1,
+   "scene": 4
+  },
+  {
+   "w": "jadi",
+   "s": 21.1,
+   "e": 21.28,
+   "scene": 4
+  },
+  {
+   "w": "lebih",
+   "s": 21.28,
+   "e": 21.5,
+   "scene": 4
+  },
+  {
+   "w": "gampang?",
+   "s": 21.5,
+   "e": 22.08,
+   "scene": 4
+  },
+  {
+   "w": "Atau",
+   "s": 22.2,
+   "e": 22.7,
+   "scene": 4
+  },
+  {
+   "w": "justru",
+   "s": 22.7,
+   "e": 23.22,
+   "scene": 4
+  },
+  {
+   "w": "kita",
+   "s": 23.22,
+   "e": 23.74,
+   "scene": 4
+  },
+  {
+   "w": "kehilangan",
+   "s": 23.74,
+   "e": 24.28,
+   "scene": 4
+  },
+  {
+   "w": "hal",
+   "s": 24.28,
+   "e": 24.56,
+   "scene": 4
+  },
+  {
+   "w": "yang",
+   "s": 24.56,
+   "e": 24.74,
+   "scene": 4
+  },
+  {
+   "w": "bikin",
+   "s": 24.74,
+   "e": 25.02,
+   "scene": 4
+  },
+  {
+   "w": "Indonesia",
+   "s": 25.02,
+   "e": 25.58,
+   "scene": 4
+  },
+  {
+   "w": "jadi",
+   "s": 25.58,
+   "e": 26.06,
+   "scene": 4
+  },
+  {
+   "w": "Indonesia?",
+   "s": 26.06,
+   "e": 26.6,
+   "scene": 4
+  }
+ ]
+}

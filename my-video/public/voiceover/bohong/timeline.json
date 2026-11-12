@@ -1,0 +1,322 @@
+{
+ "id": "bohong",
+ "fps": 30,
+ "duration": 21.968938,
+ "audio": "voiceover/bohong/full.mp3",
+ "scenes": [
+  {
+   "id": "01-a",
+   "text": "\"Bentar lagi sampai.\" Padahal baru mandi.",
+   "start": 0.0,
+   "end": 3.364
+  },
+  {
+   "id": "02-b",
+   "text": "\"Enak kok masakannya.\" Padahal keasinan.",
+   "start": 3.364,
+   "end": 6.793
+  },
+  {
+   "id": "03-c",
+   "text": "Kita semua pernah bohong kecil kayak gini, bahkan mungkin hari ini.",
+   "start": 6.793,
+   "end": 11.232
+  },
+  {
+   "id": "04-tanya",
+   "text": "Tapi gimana kalau mulai sekarang, kita sama sekali gak bisa bohong?",
+   "start": 11.232,
+   "end": 15.885
+  },
+  {
+   "id": "05-close",
+   "text": "Apakah hidup jadi lebih damai? Atau justru semua pertemanan kita bakal hancur dalam seminggu?",
+   "start": 15.885,
+   "end": 21.969
+  }
+ ],
+ "captions": [
+  {
+   "w": "\"Bentar",
+   "s": 0.0,
+   "e": 0.36,
+   "scene": 0
+  },
+  {
+   "w": "lagi",
+   "s": 0.36,
+   "e": 0.56,
+   "scene": 0
+  },
+  {
+   "w": "sampai.\"",
+   "s": 0.56,
+   "e": 1.08,
+   "scene": 0
+  },
+  {
+   "w": "Padahal",
+   "s": 1.72,
+   "e": 2.28,
+   "scene": 0
+  },
+  {
+   "w": "baru",
+   "s": 2.28,
+   "e": 2.52,
+   "scene": 0
+  },
+  {
+   "w": "mandi.",
+   "s": 2.52,
+   "e": 3.158,
+   "scene": 0
+  },
+  {
+   "w": "\"Enak",
+   "s": 3.57,
+   "e": 3.94,
+   "scene": 1
+  },
+  {
+   "w": "kok",
+   "s": 3.94,
+   "e": 4.06,
+   "scene": 1
+  },
+  {
+   "w": "masakannya.\"",
+   "s": 4.06,
+   "e": 4.66,
+   "scene": 1
+  },
+  {
+   "w": "Padahal",
+   "s": 5.02,
+   "e": 5.72,
+   "scene": 1
+  },
+  {
+   "w": "keasinan.",
+   "s": 5.72,
+   "e": 6.54,
+   "scene": 1
+  },
+  {
+   "w": "Kita",
+   "s": 6.968,
+   "e": 7.12,
+   "scene": 2
+  },
+  {
+   "w": "semua",
+   "s": 7.12,
+   "e": 7.54,
+   "scene": 2
+  },
+  {
+   "w": "pernah",
+   "s": 7.54,
+   "e": 7.84,
+   "scene": 2
+  },
+  {
+   "w": "bohong",
+   "s": 7.84,
+   "e": 8.16,
+   "scene": 2
+  },
+  {
+   "w": "kecil",
+   "s": 8.16,
+   "e": 8.48,
+   "scene": 2
+  },
+  {
+   "w": "kayak",
+   "s": 8.48,
+   "e": 8.68,
+   "scene": 2
+  },
+  {
+   "w": "gini,",
+   "s": 8.68,
+   "e": 9.18,
+   "scene": 2
+  },
+  {
+   "w": "bahkan",
+   "s": 9.56,
+   "e": 10.08,
+   "scene": 2
+  },
+  {
+   "w": "mungkin",
+   "s": 10.08,
+   "e": 10.36,
+   "scene": 2
+  },
+  {
+   "w": "hari",
+   "s": 10.36,
+   "e": 10.62,
+   "scene": 2
+  },
+  {
+   "w": "ini.",
+   "s": 10.62,
+   "e": 10.98,
+   "scene": 2
+  },
+  {
+   "w": "Tapi",
+   "s": 11.399,
+   "e": 11.7,
+   "scene": 3
+  },
+  {
+   "w": "gimana",
+   "s": 11.7,
+   "e": 12.42,
+   "scene": 3
+  },
+  {
+   "w": "kalau",
+   "s": 12.42,
+   "e": 12.64,
+   "scene": 3
+  },
+  {
+   "w": "mulai",
+   "s": 12.64,
+   "e": 12.94,
+   "scene": 3
+  },
+  {
+   "w": "sekarang,",
+   "s": 12.94,
+   "e": 13.44,
+   "scene": 3
+  },
+  {
+   "w": "kita",
+   "s": 13.8,
+   "e": 14.02,
+   "scene": 3
+  },
+  {
+   "w": "sama",
+   "s": 14.02,
+   "e": 14.54,
+   "scene": 3
+  },
+  {
+   "w": "sekali",
+   "s": 14.54,
+   "e": 14.9,
+   "scene": 3
+  },
+  {
+   "w": "gak",
+   "s": 14.9,
+   "e": 15.02,
+   "scene": 3
+  },
+  {
+   "w": "bisa",
+   "s": 15.02,
+   "e": 15.24,
+   "scene": 3
+  },
+  {
+   "w": "bohong?",
+   "s": 15.24,
+   "e": 15.66,
+   "scene": 3
+  },
+  {
+   "w": "Apakah",
+   "s": 16.072,
+   "e": 16.4,
+   "scene": 4
+  },
+  {
+   "w": "hidup",
+   "s": 16.4,
+   "e": 16.68,
+   "scene": 4
+  },
+  {
+   "w": "jadi",
+   "s": 16.68,
+   "e": 16.84,
+   "scene": 4
+  },
+  {
+   "w": "lebih",
+   "s": 16.84,
+   "e": 17.1,
+   "scene": 4
+  },
+  {
+   "w": "damai?",
+   "s": 17.1,
+   "e": 17.6,
+   "scene": 4
+  },
+  {
+   "w": "Atau",
+   "s": 17.74,
+   "e": 18.28,
+   "scene": 4
+  },
+  {
+   "w": "justru",
+   "s": 18.28,
+   "e": 18.78,
+   "scene": 4
+  },
+  {
+   "w": "semua",
+   "s": 18.78,
+   "e": 19.22,
+   "scene": 4
+  },
+  {
+   "w": "pertemanan",
+   "s": 19.22,
+   "e": 19.8,
+   "scene": 4
+  },
+  {
+   "w": "kita",
+   "s": 19.8,
+   "e": 20.02,
+   "scene": 4
+  },
+  {
+   "w": "bakal",
+   "s": 20.02,
+   "e": 20.38,
+   "scene": 4
+  },
+  {
+   "w": "hancur",
+   "s": 20.38,
+   "e": 20.96,
+   "scene": 4
+  },
+  {
+   "w": "dalam",
+   "s": 20.96,
+   "e": 21.18,
+   "scene": 4
+  },
+  {
+   "w": "seminggu?",
+   "s": 21.18,
+   "e": 21.74,
+   "scene": 4
+  }
+ ]
+}

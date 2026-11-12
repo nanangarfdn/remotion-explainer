@@ -1,0 +1,370 @@
+{
+ "id": "hape",
+ "fps": 30,
+ "duration": 24.26775,
+ "audio": "voiceover/hape/full.mp3",
+ "scenes": [
+  {
+   "id": "01-a",
+   "text": "Coba ingat, kapan terakhir kali kamu megang hape?",
+   "start": 0.0,
+   "end": 3.252
+  },
+  {
+   "id": "02-b",
+   "text": "5 menit lalu? Atau, jangan-jangan, kamu lagi megang hape sekarang.",
+   "start": 3.252,
+   "end": 8.801
+  },
+  {
+   "id": "03-c",
+   "text": "Rata-rata, kita bisa ngabisin berjam-jam sehari cuma buat natap layar sekecil ini.",
+   "start": 8.801,
+   "end": 14.81
+  },
+  {
+   "id": "04-tanya",
+   "text": "Tapi gimana kalau mulai besok, hape kamu hilang selama 30 hari?",
+   "start": 14.81,
+   "end": 19.519
+  },
+  {
+   "id": "05-close",
+   "text": "Apa yang bakal terjadi sama otak kita? Dan berapa lama sampai kita mulai panik?",
+   "start": 19.519,
+   "end": 24.268
+  }
+ ],
+ "captions": [
+  {
+   "w": "Coba",
+   "s": 0.0,
+   "e": 0.3,
+   "scene": 0
+  },
+  {
+   "w": "ingat,",
+   "s": 0.3,
+   "e": 0.64,
+   "scene": 0
+  },
+  {
+   "w": "kapan",
+   "s": 0.8,
+   "e": 1.42,
+   "scene": 0
+  },
+  {
+   "w": "terakhir",
+   "s": 1.42,
+   "e": 1.8,
+   "scene": 0
+  },
+  {
+   "w": "kali",
+   "s": 1.8,
+   "e": 2.1,
+   "scene": 0
+  },
+  {
+   "w": "kamu",
+   "s": 2.1,
+   "e": 2.36,
+   "scene": 0
+  },
+  {
+   "w": "megang",
+   "s": 2.36,
+   "e": 2.68,
+   "scene": 0
+  },
+  {
+   "w": "hape?",
+   "s": 2.68,
+   "e": 2.96,
+   "scene": 0
+  },
+  {
+   "w": "5",
+   "s": 3.432,
+   "e": 3.62,
+   "scene": 1
+  },
+  {
+   "w": "menit",
+   "s": 3.62,
+   "e": 3.9,
+   "scene": 1
+  },
+  {
+   "w": "lalu?",
+   "s": 3.9,
+   "e": 4.26,
+   "scene": 1
+  },
+  {
+   "w": "Atau,",
+   "s": 4.66,
+   "e": 5.34,
+   "scene": 1
+  },
+  {
+   "w": "jangan-jangan,",
+   "s": 5.34,
+   "e": 6.4,
+   "scene": 1
+  },
+  {
+   "w": "kamu",
+   "s": 6.4,
+   "e": 7.06,
+   "scene": 1
+  },
+  {
+   "w": "lagi",
+   "s": 7.06,
+   "e": 7.28,
+   "scene": 1
+  },
+  {
+   "w": "megang",
+   "s": 7.28,
+   "e": 7.6,
+   "scene": 1
+  },
+  {
+   "w": "hape",
+   "s": 7.6,
+   "e": 7.96,
+   "scene": 1
+  },
+  {
+   "w": "sekarang.",
+   "s": 7.96,
+   "e": 8.42,
+   "scene": 1
+  },
+  {
+   "w": "Rata-rata,",
+   "s": 9.021,
+   "e": 9.62,
+   "scene": 2
+  },
+  {
+   "w": "kita",
+   "s": 9.62,
+   "e": 10.08,
+   "scene": 2
+  },
+  {
+   "w": "bisa",
+   "s": 10.08,
+   "e": 10.38,
+   "scene": 2
+  },
+  {
+   "w": "ngabisin",
+   "s": 10.38,
+   "e": 10.82,
+   "scene": 2
+  },
+  {
+   "w": "berjam-jam",
+   "s": 10.82,
+   "e": 11.66,
+   "scene": 2
+  },
+  {
+   "w": "sehari",
+   "s": 11.66,
+   "e": 12.2,
+   "scene": 2
+  },
+  {
+   "w": "cuma",
+   "s": 12.2,
+   "e": 12.54,
+   "scene": 2
+  },
+  {
+   "w": "buat",
+   "s": 12.54,
+   "e": 12.82,
+   "scene": 2
+  },
+  {
+   "w": "natap",
+   "s": 12.82,
+   "e": 13.2,
+   "scene": 2
+  },
+  {
+   "w": "layar",
+   "s": 13.2,
+   "e": 13.6,
+   "scene": 2
+  },
+  {
+   "w": "sekecil",
+   "s": 13.6,
+   "e": 14.26,
+   "scene": 2
+  },
+  {
+   "w": "ini.",
+   "s": 14.26,
+   "e": 14.56,
+   "scene": 2
+  },
+  {
+   "w": "Tapi",
+   "s": 14.985,
+   "e": 15.2,
+   "scene": 3
+  },
+  {
+   "w": "gimana",
+   "s": 15.2,
+   "e": 15.86,
+   "scene": 3
+  },
+  {
+   "w": "kalau",
+   "s": 15.86,
+   "e": 16.18,
+   "scene": 3
+  },
+  {
+   "w": "mulai",
+   "s": 16.18,
+   "e": 16.5,
+   "scene": 3
+  },
+  {
+   "w": "besok,",
+   "s": 16.5,
+   "e": 17.04,
+   "scene": 3
+  },
+  {
+   "w": "hape",
+   "s": 17.04,
+   "e": 17.42,
+   "scene": 3
+  },
+  {
+   "w": "kamu",
+   "s": 17.42,
+   "e": 17.74,
+   "scene": 3
+  },
+  {
+   "w": "hilang",
+   "s": 17.74,
+   "e": 18.3,
+   "scene": 3
+  },
+  {
+   "w": "selama",
+   "s": 18.3,
+   "e": 18.62,
+   "scene": 3
+  },
+  {
+   "w": "30",
+   "s": 18.62,
+   "e": 18.88,
+   "scene": 3
+  },
+  {
+   "w": "hari?",
+   "s": 18.88,
+   "e": 19.28,
+   "scene": 3
+  },
+  {
+   "w": "Apa",
+   "s": 19.699,
+   "e": 19.94,
+   "scene": 4
+  },
+  {
+   "w": "yang",
+   "s": 19.94,
+   "e": 20.06,
+   "scene": 4
+  },
+  {
+   "w": "bakal",
+   "s": 20.06,
+   "e": 20.3,
+   "scene": 4
+  },
+  {
+   "w": "terjadi",
+   "s": 20.3,
+   "e": 20.64,
+   "scene": 4
+  },
+  {
+   "w": "sama",
+   "s": 20.64,
+   "e": 20.86,
+   "scene": 4
+  },
+  {
+   "w": "otak",
+   "s": 20.86,
+   "e": 21.14,
+   "scene": 4
+  },
+  {
+   "w": "kita?",
+   "s": 21.14,
+   "e": 21.42,
+   "scene": 4
+  },
+  {
+   "w": "Dan",
+   "s": 21.64,
+   "e": 21.94,
+   "scene": 4
+  },
+  {
+   "w": "berapa",
+   "s": 21.94,
+   "e": 22.32,
+   "scene": 4
+  },
+  {
+   "w": "lama",
+   "s": 22.32,
+   "e": 22.68,
+   "scene": 4
+  },
+  {
+   "w": "sampai",
+   "s": 22.68,
+   "e": 23.02,
+   "scene": 4
+  },
+  {
+   "w": "kita",
+   "s": 23.02,
+   "e": 23.28,
+   "scene": 4
+  },
+  {
+   "w": "mulai",
+   "s": 23.28,
+   "e": 23.58,
+   "scene": 4
+  },
+  {
+   "w": "panik?",
+   "s": 23.58,
+   "e": 24.08,
+   "scene": 4
+  }
+ ]
+}

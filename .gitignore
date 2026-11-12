@@ -5,3 +5,9 @@ vendor/
 graphify-out/
 .DS_Store
 .env
+riset/kokbisa/audio/
+riset/kokbisa/transcripts/
+riset/kokbisa/*.tsv
+riset/kokbisa/*.err
+riset/kokbisa/*.log
+__pycache__/

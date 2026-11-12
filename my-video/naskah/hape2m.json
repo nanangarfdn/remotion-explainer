@@ -1,0 +1,87 @@
+{
+ "id": "hape2m",
+ "format": "vertical 1080x1920, ~111 s; hook take (hook4) + 0.45 s + body take gen2",
+ "voice": "ElevenLabs Serena v4 s50/sim75",
+ "scenes": [
+  {
+   "id": "h1-ingat",
+   "text": "Coba ingat, kapan terakhir kali kamu megang hape?"
+  },
+  {
+   "id": "h2-kamu",
+   "text": "5 menit lalu? Atau, jangan-jangan, kamu lagi megang hape sekarang."
+  },
+  {
+   "id": "h3-layar",
+   "text": "Rata-rata, kita bisa ngabisin berjam-jam sehari cuma buat natap layar sekecil ini."
+  },
+  {
+   "id": "h4-hilang",
+   "text": "Tapi gimana kalau mulai besok, hape kamu hilang selama 30 hari?"
+  },
+  {
+   "id": "h5-tanya",
+   "text": "Apa yang bakal terjadi sama otak kita? Dan berapa lama sampai kita mulai panik?"
+  },
+  {
+   "id": "b1-panik",
+   "text": "Oke, kita jawab yang paling cepat dulu: panik. Ternyata nggak perlu nunggu 30 hari."
+  },
+  {
+   "id": "b2-kelas",
+   "text": "Di satu penelitian, mahasiswa yang hapenya disimpan mulai cemas cuma 10 menit kemudian. Terutama yang paling sering main hape. Dan makin lama, cemasnya makin naik.",
+   "source": "Cheever, Rosen, Carrier & Chavez (2014), Computers in Human Behavior 37:290-297 — https://doi.org/10.1016/j.chb.2014.05.002 ; heavy users anxious ~10 min in: https://www.psychologytoday.com/us/blog/rewired-the-psychology-technology/201501/iphone-separation-anxiety"
+  },
+  {
+   "id": "b3-enam",
+   "text": "Wajar sih. Orang Indonesia rata-rata main hape sekitar 6 jam sehari, paling lama di dunia. Itu lebih dari sepertiga waktu kita melek.",
+   "source": "data.ai State of Mobile 2024: Indonesia 6,05 jam/hari (2023, pengguna Android), tertinggi di dunia — https://data.goodstats.id/statistic/screen-time-ponsel-warga-indonesia-tertinggi-sedunia-RypaM"
+  },
+  {
+   "id": "b4-otak",
+   "text": "Terus, gimana dengan otaknya? 30 hari memang belum ada yang neliti. Tapi 2 minggu, udah."
+  },
+  {
+   "id": "b5-studi",
+   "text": "Peneliti minta 467 orang mematikan internet di hape mereka selama 2 minggu. Telepon dan pesan singkat masih boleh.",
+   "source": "Castelo et al. (2025) PNAS Nexus, doi:10.1093/pnasnexus/pgaf017 — n=467, 2 minggu blokir internet hape (telepon & SMS tetap)"
+  },
+  {
+   "id": "b6-hasil",
+   "text": "Hasilnya, 9 dari 10 orang membaik di salah satunya: suasana hati, kesehatan mental, atau fokus.",
+   "source": "Castelo et al. (2025): 91% membaik di minimal satu dari tiga ukuran — https://www.news-medical.net/news/20250219/Blocking-mobile-internet-for-two-weeks-improves-mental-health-and-well-being.aspx"
+  },
+  {
+   "id": "b7-fokus",
+   "text": "Bahkan, naiknya fokus mereka setara mundur 10 tahun dari penurunan karena umur.",
+   "source": "Castelo et al. (2025): perbaikan atensi setara ~10 tahun penurunan karena usia (pernyataan peneliti)"
+  },
+  {
+   "id": "b8-luar",
+   "text": "Uniknya, ini bukan sulap. Tanpa internet, mereka jadi lebih sering ketemu orang, olahraga, dan jalan di luar.",
+   "source": "Castelo et al. (2025): mediasi — lebih banyak bersosialisasi langsung, olahraga, waktu di alam"
+  },
+  {
+   "id": "b9-awet",
+   "text": "Efeknya juga masih kerasa 2 minggu setelah internetnya nyala lagi.",
+   "source": "Castelo et al. (2025): efek bertahan 2 minggu setelah internet aktif lagi"
+  },
+  {
+   "id": "b10-susah",
+   "text": "Tapi jujur aja, ini nggak gampang. Cuma seperempat peserta yang kuat sampai 2 minggu penuh.",
+   "source": "Castelo et al. (2025): hanya ~seperempat peserta tidak memakai internet hape penuh 2 minggu"
+  },
+  {
+   "id": "b11-jadi",
+   "text": "Jadi, ya, otak kita bakal panik di awal, tapi besar kemungkinan malah jadi lebih tenang dan lebih fokus."
+  },
+  {
+   "id": "b12-saran",
+   "text": "Nggak perlu buang hape kok. Coba aja matiin data seharian pas akhir pekan."
+  },
+  {
+   "id": "b13-close",
+   "text": "Kamu kira-kira kuat berapa lama? Tulis di komentar."
+  }
+ ]
+}

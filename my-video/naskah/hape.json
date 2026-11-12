@@ -1,0 +1,27 @@
+{
+ "id": "hape",
+ "format": "vertical 1080x1920 short, ElevenLabs one take (Serena, v4)",
+ "title": "Seberapa lama kita kuat tanpa hape?",
+ "scenes": [
+  {
+   "id": "01-a",
+   "text": "Coba ingat, kapan terakhir kali kamu megang hape?"
+  },
+  {
+   "id": "02-b",
+   "text": "5 menit lalu? Atau, jangan-jangan, kamu lagi megang hape sekarang."
+  },
+  {
+   "id": "03-c",
+   "text": "Rata-rata, kita bisa ngabisin berjam-jam sehari cuma buat natap layar sekecil ini."
+  },
+  {
+   "id": "04-tanya",
+   "text": "Tapi gimana kalau mulai besok, hape kamu hilang selama 30 hari?"
+  },
+  {
+   "id": "05-close",
+   "text": "Apa yang bakal terjadi sama otak kita? Dan berapa lama sampai kita mulai panik?"
+  }
+ ]
+}
