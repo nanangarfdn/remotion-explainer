@@ -35,6 +35,49 @@ description: Write Indonesian explainer narration scripts (naskah) in the casual
 - **Facts need a source**: every "ada penelitian yang nunjukin…" line gets a `source` field with a real URL. Never invent numbers or studies. If unsure, ask the user or search.
 - Sponsor segment (if any): in the last 60–90 s, after the close of the main story.
 
+### Shorts (vertical) — replaces the beat table above
+
+Why: Shorts are ranked on viewed-vs-swiped (first 1–2 s) and % watched; replays count as views. Every short so far got a ~1.2–2k test push from the Shorts feed; only stayed ≥ ~65 % kept it going past the first hours.
+
+**Hook types ranked by our data** (Studio 15 Nov 14.34; stayed / avg watched / likes / subs):
+
+| Rank | Hook type | Video | Result |
+|---|---|---|---|
+| 1 | **Test with escalating stakes** ("Kita uji: jatuh dari lemari… sampai lantai 5!") | Kucing 1:02 | 66.4 % / 50 % / 1.1 % / +4, still 59 views/h at 21 h (only one still pushed) |
+| 2 | **Relatable "you" scenario** ("Hape kamu hilang 30 hari, otakmu kenapa?") | Hape 1:54 | 65.5 % / 36 % / 1.3 % / **+6** (most subs) |
+| 3 | Hypothetical world ("Kalau semua orang nggak bisa bohong…") | Jujur 1:01 | 58.4 % / 42 % / 1.2 % / +2 |
+| 4 | Fact statement ("Di mata lalat, tangan lo literally slow motion") | Lalat 1:01 | 57.9 % / 34 % / 0.6 % / +1, push ended ~4 h |
+| 5 | News / politics ("Mundur dari wapres, dapet 20 juta sebulan") | Pensiun 0:54 | **48.4 %** / 23 % / **1.8 %** / 0, most swiped but most likes + 3 comments |
+
+Reading: what makes people *stay* is an unanswered "what happens?" they can picture (a test, their own phone); a fact said up front answers itself, and a politics word in line 1 makes half the feed swipe. What makes people *comment* is a one-word A/B verdict (Pensiun). Length alone is not it: Pensiun was the shortest and the worst, Kucing at 62 s the best. Default = rank 1–2 hook + Pensiun-style A/B ask.
+
+- **Length 35–50 s** (≈ 80–110 words at 2.2 words/s). Over 60 s only if every beat earns it.
+- **Line 1 (≤ 2 s) = the question or promise**, no setup: "Gimana kalau mulai besok semua orang nggak bisa bohong?". No greeting, no channel name. Never a fact that already answers itself (Lalat); prefer a test, a dare or the viewer's own life (Kucing, Hape).
+- **Escalate in steps** the viewer can rank: lemari → lantai 2 → lantai 5; 1 hari → 1 minggu → 30 hari. Name the last step in line 1 so they wait for it.
+- **Comment question in the first 5 s and again in the last line.** It must be answerable in one word or a pick: A/B, a guess, a number, "kamu tim mana". Never only "tulis di komentar" without a prompt.
+- **Open loop**: tease the payoff early ("yang terakhir paling bikin kaget"), pay it off in the last 20 %.
+- **Opinion beat**: one claim people will disagree with or want to add to (a ranking, a "menurutku…"). Pure facts get watched, not discussed.
+- **Loop line**: the last line flows grammatically into line 1 (last: "…dan itu baru hari pertama, karena…" → first: "Gimana kalau…"), so a replay feels like one sentence. No sign-off after it.
+- One beat per 2–3 s of narration; cut any line that only restates.
+
+### Register "Jaksel" (option, user ask 14 Nov 2026)
+
+- Base: casual Jakarta, **gue/lo**, particles carry the tone: *sih, tuh, kok, dong, deh, kan, gitu, kayak, banget, se-…itu* ("se-niat itu").
+- English goes where Jaksel speakers put it, never as a full sentence:
+  - openers/closers: *literally, basically, honestly, jujurly, actually, even, you know, make sense kan?, no debat*;
+  - the "wrong" connector *which is* (used as "jadi/yang bikin");
+  - Indonesian affixes on English verbs: *nge-scan, nge-plan, nge-dodge, di-skip, di-slow, ke-trigger, nge-lag*;
+  - nouns/labels: *plot twist, skill issue, the real MVP, red flag, worth it, effort, vibes, struggle, random banget, valid*.
+- Max 1–2 English chunks per sentence; a nge-/di- verb counts as Indonesian. Facts and numbers stay in Indonesian, so the info still reads as trustworthy.
+- Rhythm: short punchy fragment → longer explain line → tag question ("…kan?", "…sih"). One self-aware joke per video, not per line.
+- Avoid: profanity (anjir/anjay), dated or cringe slang (*slay* every line, *gaskeun*, *mantul*), Gen-Z text slang that only works written (*ngl, fr, lowkey*).
+- TTS: test one Jaksel line before the full take (English words in an Indonesian voice can come out with Indonesian phonetics, which is fine, or get swallowed). Whisper-check that each English word is heard.
+
+### Sound human, not AI (adapted from blader/humanizer's patterns)
+
+Cut on sight: "Pernahkah kamu…", "Tahukah kamu…", "Yuk simak", "Mari kita bahas", "Di era digital ini", "tersebut", "merupakan", "sangatlah", "tentu saja", "tidak hanya… tetapi juga", rhetorical triples in every beat, an em-dash in every line, an upbeat moral at the end.
+Do: one concrete everyday detail per beat (a brand-free object, a time, a place), uneven sentence lengths, a fragment now and then ("Tiga kali. Gagal semua."), a small opinion ("menurut gue sih…"), and read it aloud: if a 20-year-old would not say it to a friend, rewrite.
+
 ## 2. Write for TTS
 
 - Numbers as words: "empat atau lima gelas", "dua ribu triliun rupiah". Never "4-5", "2rb T", "2x".
@@ -78,13 +121,16 @@ API fields accepted by `/v1/audio/speech` (backend `openai_compat.py`): `model, 
 
 ## 4b. Voice it (ElevenLabs, preferred since Nov 2026; held for 2 videos)
 
+0. **User approves first** (rule 15 Nov 2026): send 2–3 hook options + the full naskah, wait for an explicit OK, then generate. No TTS call before that, not even a hook test. Label each option with its hook type and rank from the Shorts table, so the pick is made on data.
+
 1. Give the user the full naskah as one text: one line per paragraph, blank lines between them, a few tags (`[curious]`, `[whispers]`, `[playful]`). Settings: Eleven v4, "Serena - Heartfelt Indonesian", stability 50, similarity 75. Generate once. The free plan is non-commercial.
 2. The user drops the MP3 into `audio/` → copy it to `public/voiceover/<id>/full.mp3`.
 3. `<venv>/python -I scripts/words.py full.mp3 words.json` (faster-whisper small; venv in the scratchpad `wenv/`, or `deepdml/faster-whisper-large-v3-turbo-ct2` as the 3rd argument for a second opinion).
 4. `python3 scripts/align.py naskah/<id>.json full.mp3 words.json` → `timeline.json` (scene start/end at mid-silences, captions in the naskah spelling).
 5. Composition: one `<Audio>` for the whole take, scenes from `timeline.scenes`, beats via word lookups (see `src/sadap/Sadap.tsx` `W()`), `<Captions caps={timeline.captions} />`.
 6. Words Whisper mishears every time (both models) are the first thing the user should check by ear.
-- Hooks are everyday moments, never news pegs ("lagi rame…"); the content must stay timeless.
+- Hooks are everyday moments by default. News / politics scored worst on retention (Pensiun 48 % stayed): use it only when the user picks it, and open on the viewer's side ("Gaji lo vs pensiun mantan pejabat"), never with the office or name in line 1. News pegs are allowed (user, 15 Nov 2026) only as a timeless fact angle on the news: the rule, number or history behind it, never the gossip. Check every claim in 2+ outlets or the law text, keep it neutral (aturan, not the person), no real faces (symbols: empty chair, book, stamp), sources in the description.
+- Take too slow for 35–50 s? `python3 scripts/speed.py <id> 1.12–1.15` (atempo on full.mp3 + rescaled timeline; originals kept as *-orig).
 
 ## 5. Sync to Remotion
 

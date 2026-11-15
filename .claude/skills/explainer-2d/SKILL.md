@@ -64,6 +64,13 @@ Flat style, real-world logic. Check every scene against these rules before rende
 7. **Consistent light.** The side facing a lamp or screen is lit, and glow colours match their source.
 8. **Plausible scale.** A mug is smaller than a laptop, and a phone fits in a hand.
 
+## Expressions / acting (`Hero` in `src/explainer/Hero.tsx`, check sheet: composition `EmotionLab`)
+
+- Use `emotion="shock"` or keyed `face={emo(f, [[0, "determined"], [hit + 1, "cringe"], [hon, "shock"]], len)}`; 14 presets (neutral happy laugh sad cry shock scared angry smug cringe thinking sleepy determined love). Override a preset with `faceOf("scared", { teeth: 0, sweat: 1 })`. Legacy `mouth/worried/angry/browUp/eyesOpen` still work but don't mix them with `face`.
+- Built from FACS: surprise = brows up + arched, lids wide, jaw drop → round O (AU1+2+5+26); sadness = inner brows up + mouth corners down (AU1+4+15); real smile = cheeks push the lower lids up (AU6+12, Duchenne), a mouth-only smile reads fake; contempt/smug = one-sided mouth corner + one brow (asymmetric, mirror it for the other character with negative `smirk`/`browAsym`); fear/cringe = clenched teeth box + sweat.
+- Acting: react on the beat (key at word frame +0–1), change in 4–6 frames with overshoot (`emo` does it), hold each expression ≥ 12 frames. Eyes lead the head; add a `blinks` frame on every gaze/head change. Give each character its own `seed` so blinks and breathing don't sync.
+- Arc per shot: start → react → settle (e.g. determined → cringe per miss → scared → shock → relieved). A face that never changes in a shot = dead shot.
+
 ## Vertical 9:16
 
 Shorts/Reels/TikTok cut = same show, second composition (`ContohVertical`, 1080×1920, same audio, beats and duration). Never copy scenes.
@@ -75,15 +82,39 @@ Shorts/Reels/TikTok cut = same show, second composition (`ContohVertical`, 1080�
 - TitleCard: `fontSize 180, maxWidth "86%"` → 2–3 lines.
 - Verify: landscape frame sequence before/after must be pixel-identical; stills of the vertical cut with the safe box drawn on.
 
+## Physics (helpers in `src/explainer/phys.ts`, self-check `npx tsx src/explainer/phys.ts`)
+
+- **Scale first**: pick px/m from a known object in the shot (head ≈ 0.23 m, table height ≈ 0.75 m, phone ≈ 0.15 m). Gravity = `gPx(pxPerM)` px/frame²; a 1 m drop takes ~13.5 frames, a table edge ~12 (`fallFrames`). Falls use `ballistic()` (constant acceleration), never a linear or eased tween.
+- **Strikes** (slap, clap, punch, stamp): `strike(f, at)` = short wind-up opposite to the hit (anticipation), accelerating swing (t²), **abrupt stop on contact** (no ease-in into a surface), 2-frame hold, damped recoil. A human swat lasts ~4–6 frames from start of swing to contact.
+- **Impacts** spread: `damped()` camera shake (amp ≤ 10 px, decay ~4 f), loose objects jiggle, dust/air ring at the contact point, SFX on the contact frame.
+- **Arcs**: limbs rotate around a joint (shoulder/elbow), so hands travel on arcs; moving toward the camera also grows (perspective).
+- **Air**: a palm or swatter pushes air ahead of it; small things (flies, paper, hair) react a few frames *before* contact.
+- **Insects**: wings beat ~200×/s, so at 30 fps draw a translucent blur fan, never visible flaps. Flight = straight legs with near-instant turns (Drosophila turns ~90° in < 50 ms, ≈ 1–2 frames) + fine jitter (`saccadeFlight`), not smooth circles. Escape take-off happens in 1–2 frames, away from the threat.
+- **Follow-through & overlap**: core moves first, loose parts (hair, tail, cloth, liquid) lag and settle; heavier = less overshoot.
+- Check on a 2–4-frame-step contact sheet around every physical beat.
+
+## Shorts growth (algorithm + channel data, Nov 2026)
+
+Script rules live in `naskah-voicestudio` → "Shorts". Visual side:
+- **Frame 0 = action + question text** (big pill/banner, readable with sound off). No logo intro, no fade-in from black, no static first second.
+- **Mid-video comment chip** at ~40–60 %: short "Komen: A atau B?" for 2–3 s (wrap `CommentCta` in `<Sequence from={x} durationInFrames={75}>` with `at={0}`), so viewers who leave early still saw the ask.
+- **No dead end**: `HOLD` in `src/shorts/common.tsx` is 12 frames. The end CTA pops during the last line, not after it; never a 2+ s static end card (viewers swipe before the "end" and the view counts as unfinished).
+- **Loop frame**: the last shot visually matches frame 0 (same set/camera or a cut that reads as the start), music bed does not fade to silence.
+- Change something on screen every 2–3 s; check the contact sheet for empty tiles.
+- Frame 0 shows the *stakes* of the test or the viewer's own object (cat at the cupboard edge, a phone with 0 % battery), not a set that needs explaining (empty VP chair read as politics → most swipes).
+- After publish: pinned question comment (user OK) + answer comments in the first hour. Read Studio (video → Insight) at **~2 h, ~6 h and 48 h**: views, views in the last 60 min, viewed-vs-swiped, watch hours (avg s = hours × 3600 / views), likes, comments, subs. Our feed push lasts ~4 h; if the last-60-min views fall under ~30 by 6 h with stayed < 60 %, the test is over: note the lesson, don't wait. Goals: stayed ≥ 65 % keeps the push (Kucing), ≥ 70 % for a breakout; likes ≥ 1.2 %. Compare against our own scoreboard (LESSONS.md, 2026-11-15 analytics), not internet benchmarks.
+
 ## Workflow
 
 0. Read [LESSONS.md](./LESSONS.md) first; append new lessons when done (format at its top).
-1. Script first (skill `naskah-voicestudio`): it produces `public/voiceover/<id>/timeline.json` with per-scene `durationInFrames` and a `shot` note.
-2. One component per scene in `src/<video-id>/scenes/`, sized by the timeline, each wrapped in `<PushIn>`.
+1. Script first (skill `naskah-voicestudio`): it produces `public/voiceover/<id>/timeline.json`. Don't open that file: `python3 scripts/beats.py <id> [scene…]` prints scene start/length and every word's local frame (`word@frame`, repeats `word#n@frame` = `W(i, "word", n)`).
+2. Vertical short: `src/<id>/<Comp>.tsx` with scenes `S0…Sn` + `src/<id>/props.tsx`. Import the cast and frame from `src/shorts/cast.tsx` (`A`, `B`, `P`, `Blurred`, `lerp`, `mergeCaps`, `VShort`) instead of copying them; the export is one line: `<VShort tl={timeline} scenes={SCENES} trans={TRANS} banner="…" bannerLoop caps={CAPS} />` (banner, music bed 0.07 with no fade-out, watermark, captions and voice included; `children` for extra overlays, `musicVolume` for ducking). Pensiun is the reference. Landscape: one component per scene in `src/<video-id>/scenes/`, each wrapped in `<PushIn>`.
 3. Assets: SVG/PNG in `public/<video-id>/`, loaded with `staticFile()`. Layer as separate files (bg, mid, character, props) so each can move.
 4. `<TransitionSeries>` with mostly `fade()`, `colorWipe` at topic changes, `whipBlur` sparingly.
-5. Open Studio (`npm run dev`) for preview. Render only when asked.
-6. Verify: render stills at each transition midpoint + one per scene (`npx remotion still <Comp> out.png --frame=N --scale=0.25`), tile them with ffmpeg, look before claiming it works.
+5. Type errors are reported after each edit by the `tsc_check.py` hook (`.claude/hooks/`), so fix them before rendering stills.
+6. Verify: `SCALE=0.4 node scripts/stills.mjs <new dir> Comp:f1,f2…` (one bundle) at each transition midpoint + one per beat, then `python3 scripts/sheet.py <dir> Comp` and look at the sheet before claiming it works.
+7. Ship: `scripts/ship.sh <Comp> <id>` = full tsc, render, 2-pass upload copy (< 10 MB) and one line `path  s  MB  LUFS  OK`. `SKIP_RENDER=1` re-encodes only.
+8. Studio numbers: navigate to `studio.youtube.com/video/<id>/analytics/tab-overview/period-default`, then run `scripts/studio-stats.js` as the javascript_tool text → one JSON line (views, stayed, avg s / %, likes, subs, recent views).
 
 ## Don'ts
 
