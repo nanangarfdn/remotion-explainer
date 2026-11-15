@@ -32,7 +32,8 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "tts": "node scripts/eleven.mjs"
   },
   "allowScripts": {
     "esbuild": false

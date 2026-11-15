@@ -1,0 +1,18 @@
+{
+  "id": "jujur",
+  "fps": 30,
+  "padSeconds": 0.45,
+  "stability": 0.45,
+  "similarity": 0.75,
+  "style": 0.35,
+  "elevenModel": "eleven_v4",
+  "scenes": [
+    { "id": "j1-hook", "text": "Gimana kalau mulai besok, semua orang di dunia nggak bisa bohong?" },
+    { "id": "j2-rambut", "text": "Kamu potong rambut, temanmu langsung bilang: \"Mending yang kemarin.\" Dan kamu jawab: \"Iya, mukamu juga.\"" },
+    { "id": "j3-kamus", "text": "Bahasa kita berubah total. \"Mampir dulu!\" artinya, tolong jangan mampir. \"Bagus kok,\" jelek. \"Nanti aku kabarin,\" nggak akan. Dan \"otewe\"... baru bangun." },
+    { "id": "j4-selfie", "text": "Ada yang kirim foto selfie, nanya, \"gimana?\" Jawabannya keluar, sebelum kamu sempat mikir." },
+    { "id": "j5-kantor", "text": "Di kantor, \"meeting ini penting\" berubah jadi, \"harusnya cukup lewat email.\"" },
+    { "id": "j6-twist", "text": "Tapi tanpa bohong kecil, nggak ada lagi kejutan ulang tahun. Nggak ada \"kamu pasti bisa\", waktu kamu sendiri ragu." },
+    { "id": "j7-cta", "text": "Dan ada satu profesi yang bakal hilang paling duluan. Tebak apa? Tulis di komentar. Jujur ya." }
+  ]
+}

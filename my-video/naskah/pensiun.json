@@ -1,0 +1,60 @@
+{
+  "id": "pensiun",
+  "fps": 30,
+  "padSeconds": 0.45,
+  "stability": 0.45,
+  "similarity": 0.75,
+  "style": 0.35,
+  "elevenModel": "eleven_v4",
+  "scenes": [
+    {
+      "id": "p1-hook",
+      "text": "Mundur dari wapres, dapet dua puluh juta sebulan. Seumur hidup.",
+      "shot": "kursi wapres kosong, uang jatuh ke amplop, stamp SEUMUR HIDUP"
+    },
+    {
+      "id": "p2-tanya",
+      "text": "Adil nggak menurut lo? Jawab di komen: adil, atau nggak.",
+      "shot": "split ADIL vs NGGAK, A dan B, chip komen"
+    },
+    {
+      "id": "p3-uu",
+      "text": "Aturannya dari undang-undang tahun sembilan belas tujuh puluh delapan. Which is, lebih tua dari kebanyakan kita.",
+      "shot": "buku UU berdebu, kalender 1978, A kaget",
+      "source": "UU No. 7 Tahun 1978"
+    },
+    {
+      "id": "p4-hitung",
+      "text": "Gaji pokok wapres sekitar dua puluh juta sebulan. Pensiunnya? Seratus persen. Literally sama persis.",
+      "shot": "kalkulator 4 × 5,04 jt = 20,16 jt, bar gaji = bar pensiun",
+      "source": "CNN Indonesia 13 Nov 2026; UU 7/1978"
+    },
+    {
+      "id": "p5-twist",
+      "text": "Plot twist-nya, mundur pun dihitung berhenti dengan hormat. Kecuali M P R tegas bilang nggak.",
+      "shot": "stempel DENGAN HORMAT, palu MPR",
+      "source": "Penjelasan UU 7/1978 via CNBC Indonesia"
+    },
+    {
+      "id": "p6-fasilitas",
+      "text": "Plus rumah, sama biaya listrik, air, dan telepon. Ditanggung negara.",
+      "shot": "rumah pop, ikon listrik air telepon masuk",
+      "source": "UU 7/1978 Pasal 7–8"
+    },
+    {
+      "id": "p7-stop",
+      "text": "Berhentinya kapan? Cuma kalau meninggal, atau jadi presiden atau wapres lagi.",
+      "shot": "dua kartu: batu nisan sederhana / kursi"
+    },
+    {
+      "id": "p8-opini",
+      "text": "Dan honestly, ini bukan aturan buat satu orang. Semua mantan wapres dapet hal yang sama.",
+      "shot": "deret kursi wapres kosong berjejer, B angguk"
+    },
+    {
+      "id": "p9-loop",
+      "text": "Jadi, adil atau nggak? Komen, soalnya faktanya tetep sama.",
+      "shot": "cut balik ke kursi kosong frame awal"
+    }
+  ]
+}

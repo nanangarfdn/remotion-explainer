@@ -197,7 +197,7 @@ const Panik: React.FC = () => {
         </div>
       ) : null}
       <Stamp at={panik} text="PANIK?" top={575} size={96} color={THEME.orange} rot={6} />
-      <CommentCta at={LAST + 14} text="Berapa lama kamu kuat tanpa hape?" />
+      <CommentCta at={LAST - 30} text="Berapa lama kamu kuat tanpa hape?" />
       <Sfx at={otak - 4} src="sfx/pluck_001.ogg" volume={0.4} />
       <Sfx at={berapa} src="sfx/pluck_002.ogg" volume={0.4} />
       <Sfx at={panik} src="sfx/drop_002.ogg" volume={0.7} />

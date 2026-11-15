@@ -1,0 +1,15 @@
+{
+  "id": "lalat-test",
+  "fps": 30,
+  "padSeconds": 0.45,
+  "stability": 0.45,
+  "similarity": 0.75,
+  "style": 0.35,
+  "elevenModel": "eleven_v4",
+  "scenes": [
+    { "id": "l1-hook", "text": "Di mata lalat, tangan lo tuh literally gerak slow motion." },
+    { "id": "l3-relate", "text": "Tiga kali nepok. Miss semua. Dan honestly? Itu bukan skill issue lo kok." },
+    { "id": "l4-mata", "text": "Mata lalat tuh isinya ribuan lensa kecil, which is dia bisa nge-scan hampir ke segala arah. Even ke belakang." },
+    { "id": "l9-mvp", "text": "Tapi jujurly, menurut gue raket nyamuk tetep the real MVP. Soalnya..." }
+  ]
+}

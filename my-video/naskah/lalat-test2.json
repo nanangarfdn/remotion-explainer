@@ -1,0 +1,13 @@
+{
+  "id": "lalat-test2",
+  "fps": 30,
+  "padSeconds": 0.45,
+  "stability": 0.45,
+  "similarity": 0.75,
+  "style": 0.35,
+  "elevenModel": "eleven_v4",
+  "scenes": [
+    { "id": "l1-hook", "text": "Di mata lalat, tangan lo literally slow motion." },
+    { "id": "l9-mvp", "text": "Tapi jujurli, menurut gue raket nyamuk tetep the real MVP. Soalnya..." }
+  ]
+}

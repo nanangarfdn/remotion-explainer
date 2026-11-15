@@ -7,8 +7,13 @@ import { SADAP_DURATION, Sadap } from "./sadap/Sadap";
 import { KOTADESA_DURATION, KotaDesa } from "./shorts/KotaDesa";
 import { HAPE_DURATION, Hape } from "./shorts/Hape";
 import { HAPE2M_DURATION, Hape2m } from "./hape2m/Hape2m";
+import { KUCING9_DURATION, Kucing9 } from "./kucing9/Kucing9";
+import { JUJUR_DURATION, Jujur } from "./jujur/Jujur";
+import { LALAT_DURATION, Lalat } from "./lalat/Lalat";
+import { PENSIUN_DURATION, Pensiun } from "./pensiun/Pensiun";
 import { BOHONG_DURATION, Bohong } from "./shorts/Bohong";
-import { CharacterLab } from "./lab/CharacterLab";
+import { Banner } from "./brand/Banner";
+import { CharacterLab, EmotionLab } from "./lab/CharacterLab";
 import { PULAU_DURATION, Pulau } from "./shorts/Pulau";
 import { CONTOH_DURATION, Contoh, ContohVertical } from "./contoh/Contoh";
 
@@ -88,9 +93,15 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="KotaDesa" component={KotaDesa} durationInFrames={KOTADESA_DURATION} fps={30} width={1080} height={1920} />
         <Composition id="Hape" component={Hape} durationInFrames={HAPE_DURATION} fps={30} width={1080} height={1920} />
         <Composition id="Hape2m" component={Hape2m} durationInFrames={HAPE2M_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Kucing9" component={Kucing9} durationInFrames={KUCING9_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Lalat" component={Lalat} durationInFrames={LALAT_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Pensiun" component={Pensiun} durationInFrames={PENSIUN_DURATION} fps={30} width={1080} height={1920} />
+        <Composition id="Jujur" component={Jujur} durationInFrames={JUJUR_DURATION} fps={30} width={1080} height={1920} />
         <Composition id="Bohong" component={Bohong} durationInFrames={BOHONG_DURATION} fps={30} width={1080} height={1920} />
       </Folder>
-      <Composition id="CharacterLab" component={CharacterLab} durationInFrames={30} fps={30} width={1080} height={1920} />
+      <Composition id="Banner" component={Banner} durationInFrames={30} fps={30} width={2048} height={1152} />
+      <Composition id="EmotionLab" component={EmotionLab} durationInFrames={30} fps={30} width={1080} height={1920} />
+        <Composition id="CharacterLab" component={CharacterLab} durationInFrames={30} fps={30} width={1080} height={1920} />
       <Composition id="Sadap" component={Sadap} durationInFrames={SADAP_DURATION} fps={30} width={1080} height={1920} />
     </>
   );

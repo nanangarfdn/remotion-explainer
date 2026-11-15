@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { Chibi } from "../explainer/Chibi";
-import { Hero } from "../explainer/Hero";
+import { Hero, PRESETS, type Emotion } from "../explainer/Hero";
 import { THEME } from "../explainer/kit";
 
 // Still for picking the new character look (not part of any video).
@@ -40,5 +40,18 @@ export const CharacterLab: React.FC = () => (
         </div>
       ))}
     </div>
+  </AbsoluteFill>
+);
+
+// All emotion presets on A and B (check sheet for the expression system).
+export const EmotionLab: React.FC = () => (
+  <AbsoluteFill style={{ background: "#EEF0FA", padding: 20, display: "flex", flexDirection: "row", flexWrap: "wrap", gap: 12, alignContent: "flex-start", justifyContent: "center" }}>
+    {(Object.keys(PRESETS) as Emotion[]).map((e, i) => (
+      <div key={e} style={{ width: 250, background: THEME.paper, borderRadius: 24, padding: "8px 0", display: "flex", flexDirection: "column", alignItems: "center" }}>
+        {i % 2 ? <Hero width={230} emotion={e} hairStyle="bob" outfit="tee" lashes hair="#3B2A22" shirt={THEME.primary} shirtShade={THEME.primaryDark} seed={i} />
+          : <Hero width={230} emotion={e} shirt={THEME.orange} shirtShade={THEME.orangeDark} seed={i} />}
+        <div style={{ fontFamily: THEME.font, fontWeight: 900, fontSize: 26, color: THEME.ink }}>{e}</div>
+      </div>
+    ))}
   </AbsoluteFill>
 );

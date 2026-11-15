@@ -341,7 +341,7 @@ const Ilmu: React.FC = () => {
         </div>
         <span style={{ fontWeight: 900, fontSize: 40, color: THEME.ink }}>lebih bahagia?</span>
       </Thought>
-      <CommentCta at={LAST + 14} text="Kamu tim kota atau tim desa?" />
+      <CommentCta at={LAST - 30} text="Kamu tim kota atau tim desa?" />
       <Sfx at={ilmu} src="sfx/pluck_001.ogg" volume={0.4} />
       <Sfx at={bahagia} src="sfx/pluck_002.ogg" volume={0.4} />
     </AbsoluteFill>

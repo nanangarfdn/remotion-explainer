@@ -201,7 +201,7 @@ const Teman: React.FC = () => {
           <Calendar w={230} top="HARI KE-" big={String(day)} color={THEME.orange} />
         </div>
       ) : null}
-      <CommentCta at={LAST + 14} text="Bohong terakhir kamu apa?" />
+      <CommentCta at={LAST - 30} text="Bohong terakhir kamu apa?" />
       <Sfx at={damai} src="sfx/pluck_001.ogg" volume={0.4} />
       <Sfx at={teman} src="sfx/pluck_002.ogg" volume={0.45} />
       <Sfx at={hancur} src="sfx/drop_002.ogg" volume={0.8} />

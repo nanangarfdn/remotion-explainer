@@ -8,7 +8,7 @@ import { LabelPill, PopIn, Sfx, THEME, TRANSITION_FRAMES as T } from "../explain
 
 // Shared plumbing for the hook shorts (1080×1920, one ElevenLabs take each, cut mid-silence by scripts/align.py).
 export const FPS = 30;
-export const HOLD = 75; // frames after the take ends: the comment card stays readable
+export const HOLD = 12; // frames after the take ends: short, so the Short loops instead of idling on the end card
 export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 export const ramp = (f: number, a: number, len = 8) => interpolate(f, [a, a + len], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
 export const rnd = (s: number) => {

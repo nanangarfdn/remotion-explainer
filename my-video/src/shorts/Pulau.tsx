@@ -278,7 +278,7 @@ const Akhir: React.FC = () => {
         <div style={{ filter: `grayscale(${grey})`, opacity: 1 - 0.45 * grey, transform: `translateY(${grey * 20}px) rotate(${grey * 8}deg)` }}><Sailboat w={190} /></div>
         <span style={{ fontWeight: 900, fontSize: 44, color: THEME.ink }}>{grey > 0.5 ? "hilang?" : "laut kita"}</span>
       </Thought>
-      <CommentCta at={LAST + 14} text="Menurutmu untung atau rugi?" />
+      <CommentCta at={LAST - 30} text="Menurutmu untung atau rugi?" />
       <Sfx at={maju} src="sfx/pluck_001.ogg" volume={0.4} />
       <Sfx at={mudik} src="sfx/pluck_002.ogg" volume={0.4} />
       <Sfx at={atau + 4} src="sfx/whoosh.wav" volume={0.3} />

@@ -1,0 +1,20 @@
+{
+  "id": "lalat",
+  "fps": 30,
+  "padSeconds": 0.45,
+  "stability": 0.45,
+  "similarity": 0.75,
+  "style": 0.35,
+  "elevenModel": "eleven_v4",
+  "scenes": [
+    { "id": "l1-hook", "text": "Di mata lalat, tangan lo literally slow motion.", "shot": "tangan ngayun ke lalat, melambat; banner SLOW MOTION?" },
+    { "id": "l2-tim", "text": "Jadi lo tim nepok pake tangan, atau tim raket nyamuk? Spill di komen, ntar kita buktiin.", "shot": "split tangan vs raket, chip komen" },
+    { "id": "l3-relate", "text": "Tiga kali nepok. Miss semua. Dan honestly? Itu bukan skill issue lo kok.", "shot": "A nepok 3x di meja, lalat kabur, counter 0/3" },
+    { "id": "l4-mata", "text": "Mata lalat tuh isinya ribuan lensa kecil, which is dia bisa nge-scan hampir ke segala arah. Even ke belakang.", "shot": "zoom mata majemuk heksagon, kerucut pandang 360" },
+    { "id": "l5-250", "text": "Mata kita nangkep sekitar 60 kedipan per detik. Lalat? 250. Empat kali lipat, gila sih.", "shot": "dua lampu kedip, 60 vs 250" },
+    { "id": "l6-pov", "text": "Jadi pas lo ngayun tangan, buat dia tuh kayak nonton video yang di-slow. Santai banget, you know.", "shot": "POV lalat, tangan raksasa slow, lalat gosok kaki" },
+    { "id": "l7-kabur", "text": "Terus, dalam sepersepuluh detik, dia udah nge-plan rute kabur. Arah lompatnya pun udah diitung. Kayak... se-niat itu.", "shot": "stopwatch 0,1 s, panah rute, kaki siap" },
+    { "id": "l8-tips", "text": "Triknya? Jangan target tempat dia diem. Arahin dikit ke depannya, ke tempat dia bakal lompat. Make sense kan?", "shot": "target lama X, target depan centang" },
+    { "id": "l9-mvp", "text": "Tapi jujurly, menurut gue raket nyamuk tetep the real MVP. Soalnya...", "shot": "raket zap, cut balik ke frame awal" }
+  ]
+}

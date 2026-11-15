@@ -4,3 +4,4 @@ crackle.wav, drain.wav, ../sadap/music.wav: generated in this project (ffmpeg an
 
 bsb/*.mp3 — BigSoundBank.com (Joseph Sardin), CC0 1.0 (public domain), commercial use OK, no attribution required.
   https://bigsoundbank.com/droit.html — files fetched 2026-11-12 from https://bigsoundbank.com/UPLOAD/mp3/<id>.mp3 (id = filename prefix).
+buzz.wav, slap.wav: generated in this project 2026-11-14 (ffmpeg aevalsrc harmonics / pink-noise burst + 95 Hz thump)

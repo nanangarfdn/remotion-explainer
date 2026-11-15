@@ -671,7 +671,7 @@ const S17: React.FC = () => {
         </div>
         <Hedge top={1290} />
       </Layer>
-      <CommentCta at={LAST + 14} text="Kamu kuat berapa lama?" chime={false} />
+      <CommentCta at={LAST - 30} text="Kamu kuat berapa lama?" chime={false} />
       <Amb src={BSB.birds} vol={0.2} from={900} />
     </AbsoluteFill>
   );

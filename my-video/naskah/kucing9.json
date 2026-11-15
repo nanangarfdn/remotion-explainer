@@ -1,0 +1,20 @@
+{
+  "id": "kucing9",
+  "fps": 30,
+  "padSeconds": 0.45,
+  "stability": 0.45,
+  "similarity": 0.75,
+  "style": 0.3,
+  "elevenModel": "eleven_v4",
+  "scenes": [
+    { "id": "k1-hook", "text": "Katanya, kucing punya sembilan nyawa. Yuk, kita buktiin." },
+    { "id": "k2-lemari", "text": "Tes pertama: jatuh dari lemari. Dalam sekejap, dia muter kepala duluan, lalu badannya, dan mendarat pakai kaki." },
+    { "id": "k3-refleks", "text": "Ini namanya refleks memutar badan. Nyawanya? Masih utuh." },
+    { "id": "k4-gedung", "text": "Tes kedua: lebih tinggi. Ada penelitian tentang seratus tiga puluh dua kucing yang jatuh, rata-rata dari lantai lima." },
+    { "id": "k5-selamat", "text": "Hasilnya, lebih dari sembilan puluh persen selamat! Badannya melebar, kayak parasut." },
+    { "id": "k6-tunggu", "text": "Tapi tunggu. Penelitian itu cuma ngitung kucing yang sempat dibawa ke dokter hewan." },
+    { "id": "k7-hilang", "text": "Yang nggak selamat, nggak pernah masuk hitungan." },
+    { "id": "k8-jawab", "text": "Jadi jawabannya: kucing cuma punya satu nyawa. Yang bikin dia kelihatan punya sembilan, cuma refleksnya yang luar biasa." },
+    { "id": "k9-cta", "text": "Kucingmu pernah selamat dari kejadian apa? Cerita di komentar." }
+  ]
+}

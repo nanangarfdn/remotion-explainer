@@ -1,0 +1,725 @@
+{
+  "id": "pensiun",
+  "fps": 30,
+  "duration": 52.859,
+  "audio": "voiceover/pensiun/full.mp3",
+  "estimate": false,
+  "scenes": [
+    {
+      "id": "p1-hook",
+      "text": "Mundur dari wapres, dapet dua puluh juta sebulan. Seumur hidup.",
+      "start": 0.0,
+      "end": 4.457
+    },
+    {
+      "id": "p2-tanya",
+      "text": "Adil nggak menurut lo? Jawab di komen: adil, atau nggak.",
+      "start": 4.457,
+      "end": 8.846
+    },
+    {
+      "id": "p3-uu",
+      "text": "Aturannya dari undang-undang tahun sembilan belas tujuh puluh delapan. Which is, lebih tua dari kebanyakan kita.",
+      "start": 8.846,
+      "end": 15.87
+    },
+    {
+      "id": "p4-hitung",
+      "text": "Gaji pokok wapres sekitar dua puluh juta sebulan. Pensiunnya? Seratus persen. Literally sama persis.",
+      "start": 15.87,
+      "end": 23.736
+    },
+    {
+      "id": "p5-twist",
+      "text": "Plot twist-nya, mundur pun dihitung berhenti dengan hormat. Kecuali M P R tegas bilang nggak.",
+      "start": 23.736,
+      "end": 30.146
+    },
+    {
+      "id": "p6-fasilitas",
+      "text": "Plus rumah, sama biaya listrik, air, dan telepon. Ditanggung negara.",
+      "start": 30.146,
+      "end": 35.443
+    },
+    {
+      "id": "p7-stop",
+      "text": "Berhentinya kapan? Cuma kalau meninggal, atau jadi presiden atau wapres lagi.",
+      "start": 35.443,
+      "end": 41.15
+    },
+    {
+      "id": "p8-opini",
+      "text": "Dan honestly, ini bukan aturan buat satu orang. Semua mantan wapres dapet hal yang sama.",
+      "start": 41.15,
+      "end": 47.63
+    },
+    {
+      "id": "p9-loop",
+      "text": "Jadi, adil atau nggak? Komen, soalnya faktanya tetep sama.",
+      "start": 47.63,
+      "end": 52.859
+    }
+  ],
+  "captions": [
+    {
+      "w": "Mundur",
+      "s": 0.0,
+      "e": 0.278,
+      "scene": 0
+    },
+    {
+      "w": "dari",
+      "s": 0.348,
+      "e": 0.487,
+      "scene": 0
+    },
+    {
+      "w": "wapres,",
+      "s": 0.557,
+      "e": 1.252,
+      "scene": 0
+    },
+    {
+      "w": "dapet",
+      "s": 1.357,
+      "e": 1.53,
+      "scene": 0
+    },
+    {
+      "w": "dua",
+      "s": 1.6,
+      "e": 1.704,
+      "scene": 0
+    },
+    {
+      "w": "puluh",
+      "s": 1.739,
+      "e": 1.878,
+      "scene": 0
+    },
+    {
+      "w": "juta",
+      "s": 2.017,
+      "e": 2.296,
+      "scene": 0
+    },
+    {
+      "w": "sebulan.",
+      "s": 2.365,
+      "e": 2.852,
+      "scene": 0
+    },
+    {
+      "w": "Seumur",
+      "s": 3.13,
+      "e": 3.409,
+      "scene": 0
+    },
+    {
+      "w": "hidup.",
+      "s": 3.478,
+      "e": 4.035,
+      "scene": 0
+    },
+    {
+      "w": "Adil",
+      "s": 4.457,
+      "e": 4.736,
+      "scene": 1
+    },
+    {
+      "w": "nggak",
+      "s": 4.805,
+      "e": 4.944,
+      "scene": 1
+    },
+    {
+      "w": "menurut",
+      "s": 5.014,
+      "e": 5.292,
+      "scene": 1
+    },
+    {
+      "w": "lo?",
+      "s": 5.397,
+      "e": 5.918,
+      "scene": 1
+    },
+    {
+      "w": "Jawab",
+      "s": 5.953,
+      "e": 6.127,
+      "scene": 1
+    },
+    {
+      "w": "di",
+      "s": 6.197,
+      "e": 6.266,
+      "scene": 1
+    },
+    {
+      "w": "komen:",
+      "s": 6.301,
+      "e": 6.892,
+      "scene": 1
+    },
+    {
+      "w": "adil,",
+      "s": 6.962,
+      "e": 7.588,
+      "scene": 1
+    },
+    {
+      "w": "atau",
+      "s": 7.657,
+      "e": 7.831,
+      "scene": 1
+    },
+    {
+      "w": "nggak.",
+      "s": 7.866,
+      "e": 8.423,
+      "scene": 1
+    },
+    {
+      "w": "Aturannya",
+      "s": 8.846,
+      "e": 9.403,
+      "scene": 2
+    },
+    {
+      "w": "dari",
+      "s": 9.472,
+      "e": 9.611,
+      "scene": 2
+    },
+    {
+      "w": "undang-undang",
+      "s": 9.681,
+      "e": 10.307,
+      "scene": 2
+    },
+    {
+      "w": "tahun",
+      "s": 10.377,
+      "e": 10.585,
+      "scene": 2
+    },
+    {
+      "w": "sembilan",
+      "s": 10.655,
+      "e": 11.003,
+      "scene": 2
+    },
+    {
+      "w": "belas",
+      "s": 11.037,
+      "e": 11.211,
+      "scene": 2
+    },
+    {
+      "w": "tujuh",
+      "s": 11.281,
+      "e": 11.455,
+      "scene": 2
+    },
+    {
+      "w": "puluh",
+      "s": 11.49,
+      "e": 11.629,
+      "scene": 2
+    },
+    {
+      "w": "delapan.",
+      "s": 11.698,
+      "e": 12.637,
+      "scene": 2
+    },
+    {
+      "w": "Which",
+      "s": 12.672,
+      "e": 12.811,
+      "scene": 2
+    },
+    {
+      "w": "is,",
+      "s": 12.881,
+      "e": 13.298,
+      "scene": 2
+    },
+    {
+      "w": "lebih",
+      "s": 13.368,
+      "e": 13.577,
+      "scene": 2
+    },
+    {
+      "w": "tua",
+      "s": 13.646,
+      "e": 13.924,
+      "scene": 2
+    },
+    {
+      "w": "dari",
+      "s": 13.959,
+      "e": 14.063,
+      "scene": 2
+    },
+    {
+      "w": "kebanyakan",
+      "s": 14.133,
+      "e": 14.55,
+      "scene": 2
+    },
+    {
+      "w": "kita.",
+      "s": 14.62,
+      "e": 15.524,
+      "scene": 2
+    },
+    {
+      "w": "Gaji",
+      "s": 15.87,
+      "e": 16.149,
+      "scene": 3
+    },
+    {
+      "w": "pokok",
+      "s": 16.218,
+      "e": 16.427,
+      "scene": 3
+    },
+    {
+      "w": "wapres",
+      "s": 16.497,
+      "e": 16.914,
+      "scene": 3
+    },
+    {
+      "w": "sekitar",
+      "s": 16.983,
+      "e": 17.331,
+      "scene": 3
+    },
+    {
+      "w": "dua",
+      "s": 17.401,
+      "e": 17.575,
+      "scene": 3
+    },
+    {
+      "w": "puluh",
+      "s": 17.61,
+      "e": 17.818,
+      "scene": 3
+    },
+    {
+      "w": "juta",
+      "s": 17.888,
+      "e": 18.097,
+      "scene": 3
+    },
+    {
+      "w": "sebulan.",
+      "s": 18.166,
+      "e": 19.001,
+      "scene": 3
+    },
+    {
+      "w": "Pensiunnya?",
+      "s": 19.036,
+      "e": 19.836,
+      "scene": 3
+    },
+    {
+      "w": "Seratus",
+      "s": 19.975,
+      "e": 20.323,
+      "scene": 3
+    },
+    {
+      "w": "persen.",
+      "s": 20.462,
+      "e": 21.157,
+      "scene": 3
+    },
+    {
+      "w": "Literally",
+      "s": 21.297,
+      "e": 21.923,
+      "scene": 3
+    },
+    {
+      "w": "sama",
+      "s": 21.992,
+      "e": 22.34,
+      "scene": 3
+    },
+    {
+      "w": "persis.",
+      "s": 22.41,
+      "e": 23.314,
+      "scene": 3
+    },
+    {
+      "w": "Plot",
+      "s": 23.736,
+      "e": 23.875,
+      "scene": 4
+    },
+    {
+      "w": "twist-nya,",
+      "s": 23.944,
+      "e": 24.779,
+      "scene": 4
+    },
+    {
+      "w": "mundur",
+      "s": 24.849,
+      "e": 25.197,
+      "scene": 4
+    },
+    {
+      "w": "pun",
+      "s": 25.266,
+      "e": 25.405,
+      "scene": 4
+    },
+    {
+      "w": "dihitung",
+      "s": 25.475,
+      "e": 25.823,
+      "scene": 4
+    },
+    {
+      "w": "berhenti",
+      "s": 25.892,
+      "e": 26.24,
+      "scene": 4
+    },
+    {
+      "w": "dengan",
+      "s": 26.31,
+      "e": 26.449,
+      "scene": 4
+    },
+    {
+      "w": "hormat.",
+      "s": 26.518,
+      "e": 27.237,
+      "scene": 4
+    },
+    {
+      "w": "Kecuali",
+      "s": 27.26,
+      "e": 27.84,
+      "scene": 4
+    },
+    {
+      "w": "M",
+      "s": 27.979,
+      "e": 28.014,
+      "scene": 4
+    },
+    {
+      "w": "P",
+      "s": 28.049,
+      "e": 28.118,
+      "scene": 4
+    },
+    {
+      "w": "R",
+      "s": 28.257,
+      "e": 28.327,
+      "scene": 4
+    },
+    {
+      "w": "tegas",
+      "s": 28.397,
+      "e": 28.814,
+      "scene": 4
+    },
+    {
+      "w": "bilang",
+      "s": 28.883,
+      "e": 29.092,
+      "scene": 4
+    },
+    {
+      "w": "nggak.",
+      "s": 29.127,
+      "e": 29.788,
+      "scene": 4
+    },
+    {
+      "w": "Plus",
+      "s": 30.146,
+      "e": 30.355,
+      "scene": 5
+    },
+    {
+      "w": "rumah,",
+      "s": 30.424,
+      "e": 30.981,
+      "scene": 5
+    },
+    {
+      "w": "sama",
+      "s": 31.05,
+      "e": 31.259,
+      "scene": 5
+    },
+    {
+      "w": "biaya",
+      "s": 31.294,
+      "e": 31.468,
+      "scene": 5
+    },
+    {
+      "w": "listrik,",
+      "s": 31.537,
+      "e": 32.233,
+      "scene": 5
+    },
+    {
+      "w": "air,",
+      "s": 32.303,
+      "e": 32.79,
+      "scene": 5
+    },
+    {
+      "w": "dan",
+      "s": 32.859,
+      "e": 32.929,
+      "scene": 5
+    },
+    {
+      "w": "telepon.",
+      "s": 32.998,
+      "e": 33.763,
+      "scene": 5
+    },
+    {
+      "w": "Ditanggung",
+      "s": 33.833,
+      "e": 34.181,
+      "scene": 5
+    },
+    {
+      "w": "negara.",
+      "s": 34.285,
+      "e": 35.016,
+      "scene": 5
+    },
+    {
+      "w": "Berhentinya",
+      "s": 35.443,
+      "e": 35.93,
+      "scene": 6
+    },
+    {
+      "w": "kapan?",
+      "s": 35.965,
+      "e": 36.835,
+      "scene": 6
+    },
+    {
+      "w": "Cuma",
+      "s": 36.87,
+      "e": 37.043,
+      "scene": 6
+    },
+    {
+      "w": "kalau",
+      "s": 37.113,
+      "e": 37.252,
+      "scene": 6
+    },
+    {
+      "w": "meninggal,",
+      "s": 37.357,
+      "e": 38.122,
+      "scene": 6
+    },
+    {
+      "w": "atau",
+      "s": 38.157,
+      "e": 38.574,
+      "scene": 6
+    },
+    {
+      "w": "jadi",
+      "s": 38.678,
+      "e": 38.783,
+      "scene": 6
+    },
+    {
+      "w": "presiden",
+      "s": 38.887,
+      "e": 39.339,
+      "scene": 6
+    },
+    {
+      "w": "atau",
+      "s": 39.409,
+      "e": 39.548,
+      "scene": 6
+    },
+    {
+      "w": "wapres",
+      "s": 39.652,
+      "e": 39.896,
+      "scene": 6
+    },
+    {
+      "w": "lagi.",
+      "s": 40.035,
+      "e": 40.8,
+      "scene": 6
+    },
+    {
+      "w": "Dan",
+      "s": 41.15,
+      "e": 41.29,
+      "scene": 7
+    },
+    {
+      "w": "honestly,",
+      "s": 41.429,
+      "e": 42.194,
+      "scene": 7
+    },
+    {
+      "w": "ini",
+      "s": 42.263,
+      "e": 42.472,
+      "scene": 7
+    },
+    {
+      "w": "bukan",
+      "s": 42.542,
+      "e": 42.681,
+      "scene": 7
+    },
+    {
+      "w": "aturan",
+      "s": 42.75,
+      "e": 43.029,
+      "scene": 7
+    },
+    {
+      "w": "buat",
+      "s": 43.098,
+      "e": 43.237,
+      "scene": 7
+    },
+    {
+      "w": "satu",
+      "s": 43.272,
+      "e": 43.446,
+      "scene": 7
+    },
+    {
+      "w": "orang.",
+      "s": 43.585,
+      "e": 44.35,
+      "scene": 7
+    },
+    {
+      "w": "Semua",
+      "s": 44.49,
+      "e": 44.837,
+      "scene": 7
+    },
+    {
+      "w": "mantan",
+      "s": 44.907,
+      "e": 45.116,
+      "scene": 7
+    },
+    {
+      "w": "wapres",
+      "s": 45.185,
+      "e": 45.603,
+      "scene": 7
+    },
+    {
+      "w": "dapet",
+      "s": 45.672,
+      "e": 46.02,
+      "scene": 7
+    },
+    {
+      "w": "hal",
+      "s": 46.09,
+      "e": 46.159,
+      "scene": 7
+    },
+    {
+      "w": "yang",
+      "s": 46.229,
+      "e": 46.368,
+      "scene": 7
+    },
+    {
+      "w": "sama.",
+      "s": 46.437,
+      "e": 47.203,
+      "scene": 7
+    },
+    {
+      "w": "Jadi,",
+      "s": 47.63,
+      "e": 48.325,
+      "scene": 8
+    },
+    {
+      "w": "adil",
+      "s": 48.395,
+      "e": 48.603,
+      "scene": 8
+    },
+    {
+      "w": "atau",
+      "s": 48.673,
+      "e": 48.847,
+      "scene": 8
+    },
+    {
+      "w": "nggak?",
+      "s": 48.882,
+      "e": 49.508,
+      "scene": 8
+    },
+    {
+      "w": "Komen,",
+      "s": 49.577,
+      "e": 50.203,
+      "scene": 8
+    },
+    {
+      "w": "soalnya",
+      "s": 50.273,
+      "e": 50.969,
+      "scene": 8
+    },
+    {
+      "w": "faktanya",
+      "s": 51.003,
+      "e": 51.525,
+      "scene": 8
+    },
+    {
+      "w": "tetep",
+      "s": 51.595,
+      "e": 51.734,
+      "scene": 8
+    },
+    {
+      "w": "sama.",
+      "s": 51.803,
+      "e": 52.499,
+      "scene": 8
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+ "id": "lalat",
+ "fps": 30,
+ "duration": 67.684,
+ "audio": "voiceover/lalat/full.mp3",
+ "estimate": false,
+ "scenes": [
+  {
+   "id": "l1-hook",
+   "text": "Di mata lalat, tangan lo literally slow motion.",
+   "start": 0,
+   "end": 4.238
+  },
+  {
+   "id": "l2-tim",
+   "text": "Jadi lo tim nepok pake tangan, atau tim raket nyamuk? Spill di komen, ntar kita buktiin.",
+   "start": 4.238,
+   "end": 11.375
+  },
+  {
+   "id": "l3-relate",
+   "text": "Tiga kali nepok. Miss semua. Dan honestly? Itu bukan skill issue lo kok.",
+   "start": 11.375,
+   "end": 18.251
+  },
+  {
+   "id": "l4-mata",
+   "text": "Mata lalat tuh isinya ribuan lensa kecil, which is dia bisa nge-scan hampir ke segala arah. Even ke belakang.",
+   "start": 18.251,
+   "end": 25.859
+  },
+  {
+   "id": "l5-250",
+   "text": "Mata kita nangkep sekitar 60 kedipan per detik. Lalat? 250. Empat kali lipat, gila sih.",
+   "start": 25.859,
+   "end": 35.713
+  },
+  {
+   "id": "l6-pov",
+   "text": "Jadi pas lo ngayun tangan, buat dia tuh kayak nonton video yang di-slow. Santai banget, you know.",
+   "start": 35.713,
+   "end": 42.929
+  },
+  {
+   "id": "l7-kabur",
+   "text": "Terus, dalam sepersepuluh detik, dia udah nge-plan rute kabur. Arah lompatnya pun udah diitung. Kayak... se-niat itu.",
+   "start": 42.929,
+   "end": 52.548
+  },
+  {
+   "id": "l8-tips",
+   "text": "Triknya? Jangan target tempat dia diem. Arahin dikit ke depannya, ke tempat dia bakal lompat. Make sense kan?",
+   "start": 52.548,
+   "end": 60.625
+  },
+  {
+   "id": "l9-mvp",
+   "text": "Tapi jujurly, menurut gue raket nyamuk tetep the real MVP. Soalnya...",
+   "start": 60.625,
+   "end": 67.684
+  }
+ ],
+ "captions": [
+  {
+   "w": "Di",
+   "s": 0,
+   "e": 0.16,
+   "scene": 0
+  },
+  {
+   "w": "mata",
+   "s": 0.2,
+   "e": 0.4,
+   "scene": 0
+  },
+  {
+   "w": "lalat,",
+   "s": 0.48,
+   "e": 1.2,
+   "scene": 0
+  },
+  {
+   "w": "tangan",
+   "s": 1.24,
+   "e": 1.6,
+   "scene": 0
+  },
+  {
+   "w": "lo",
+   "s": 1.72,
+   "e": 1.84,
+   "scene": 0
+  },
+  {
+   "w": "literally",
+   "s": 2,
+   "e": 2.64,
+   "scene": 0
+  },
+  {
+   "w": "slow",
+   "s": 2.72,
+   "e": 2.96,
+   "scene": 0
+  },
+  {
+   "w": "motion.",
+   "s": 3.04,
+   "e": 3.76,
+   "scene": 0
+  },
+  {
+   "w": "Jadi",
+   "s": 4.238,
+   "e": 4.638,
+   "scene": 1
+  },
+  {
+   "w": "lo",
+   "s": 4.718,
+   "e": 4.878,
+   "scene": 1
+  },
+  {
+   "w": "tim",
+   "s": 4.958,
+   "e": 5.038,
+   "scene": 1
+  },
+  {
+   "w": "nepok",
+   "s": 5.118,
+   "e": 5.358,
+   "scene": 1
+  },
+  {
+   "w": "pake",
+   "s": 5.438,
+   "e": 5.678,
+   "scene": 1
+  },
+  {
+   "w": "tangan,",
+   "s": 5.718,
+   "e": 6.478,
+   "scene": 1
+  },
+  {
+   "w": "atau",
+   "s": 6.558,
+   "e": 6.758,
+   "scene": 1
+  },
+  {
+   "w": "tim",
+   "s": 6.798,
+   "e": 6.958,
+   "scene": 1
+  },
+  {
+   "w": "raket",
+   "s": 7.038,
+   "e": 7.198,
+   "scene": 1
+  },
+  {
+   "w": "nyamuk?",
+   "s": 7.238,
+   "e": 8.078,
+   "scene": 1
+  },
+  {
+   "w": "Spill",
+   "s": 8.158,
+   "e": 8.318,
+   "scene": 1
+  },
+  {
+   "w": "di",
+   "s": 8.398,
+   "e": 8.438,
+   "scene": 1
+  },
+  {
+   "w": "komen,",
+   "s": 8.478,
+   "e": 9.198,
+   "scene": 1
+  },
+  {
+   "w": "ntar",
+   "s": 9.318,
+   "e": 9.598,
+   "scene": 1
+  },
+  {
+   "w": "kita",
+   "s": 9.651,
+   "e": 9.758,
+   "scene": 1
+  },
+  {
+   "w": "buktiin.",
+   "s": 9.838,
+   "e": 10.878,
+   "scene": 1
+  },
+  {
+   "w": "Tiga",
+   "s": 11.375,
+   "e": 11.615,
+   "scene": 2
+  },
+  {
+   "w": "kali",
+   "s": 11.695,
+   "e": 11.935,
+   "scene": 2
+  },
+  {
+   "w": "nepok.",
+   "s": 11.975,
+   "e": 12.735,
+   "scene": 2
+  },
+  {
+   "w": "Miss",
+   "s": 12.815,
+   "e": 13.135,
+   "scene": 2
+  },
+  {
+   "w": "semua.",
+   "s": 13.255,
+   "e": 14.255,
+   "scene": 2
+  },
+  {
+   "w": "Dan",
+   "s": 14.455,
+   "e": 14.655,
+   "scene": 2
+  },
+  {
+   "w": "honestly?",
+   "s": 14.735,
+   "e": 15.748,
+   "scene": 2
+  },
+  {
+   "w": "Itu",
+   "s": 15.802,
+   "e": 15.895,
+   "scene": 2
+  },
+  {
+   "w": "bukan",
+   "s": 15.935,
+   "e": 16.175,
+   "scene": 2
+  },
+  {
+   "w": "skill",
+   "s": 16.295,
+   "e": 16.415,
+   "scene": 2
+  },
+  {
+   "w": "issue",
+   "s": 16.495,
+   "e": 16.735,
+   "scene": 2
+  },
+  {
+   "w": "lo",
+   "s": 16.815,
+   "e": 16.975,
+   "scene": 2
+  },
+  {
+   "w": "kok.",
+   "s": 17.375,
+   "e": 17.855,
+   "scene": 2
+  },
+  {
+   "w": "Mata",
+   "s": 18.251,
+   "e": 18.491,
+   "scene": 3
+  },
+  {
+   "w": "lalat",
+   "s": 18.571,
+   "e": 18.891,
+   "scene": 3
+  },
+  {
+   "w": "tuh",
+   "s": 18.931,
+   "e": 19.131,
+   "scene": 3
+  },
+  {
+   "w": "isinya",
+   "s": 19.211,
+   "e": 19.531,
+   "scene": 3
+  },
+  {
+   "w": "ribuan",
+   "s": 19.651,
+   "e": 20.011,
+   "scene": 3
+  },
+  {
+   "w": "lensa",
+   "s": 20.051,
+   "e": 20.331,
+   "scene": 3
+  },
+  {
+   "w": "kecil,",
+   "s": 20.411,
+   "e": 21.051,
+   "scene": 3
+  },
+  {
+   "w": "which",
+   "s": 21.171,
+   "e": 21.291,
+   "scene": 3
+  },
+  {
+   "w": "is",
+   "s": 21.451,
+   "e": 21.611,
+   "scene": 3
+  },
+  {
+   "w": "dia",
+   "s": 21.771,
+   "e": 21.931,
+   "scene": 3
+  },
+  {
+   "w": "bisa",
+   "s": 21.971,
+   "e": 22.171,
+   "scene": 3
+  },
+  {
+   "w": "nge-scan",
+   "s": 22.211,
+   "e": 22.651,
+   "scene": 3
+  },
+  {
+   "w": "hampir",
+   "s": 22.731,
+   "e": 23.131,
+   "scene": 3
+  },
+  {
+   "w": "ke",
+   "s": 23.211,
+   "e": 23.291,
+   "scene": 3
+  },
+  {
+   "w": "segala",
+   "s": 23.371,
+   "e": 23.611,
+   "scene": 3
+  },
+  {
+   "w": "arah.",
+   "s": 23.691,
+   "e": 24.171,
+   "scene": 3
+  },
+  {
+   "w": "Even",
+   "s": 24.331,
+   "e": 24.571,
+   "scene": 3
+  },
+  {
+   "w": "ke",
+   "s": 24.611,
+   "e": 24.651,
+   "scene": 3
+  },
+  {
+   "w": "belakang.",
+   "s": 24.731,
+   "e": 25.371,
+   "scene": 3
+  },
+  {
+   "w": "Mata",
+   "s": 25.859,
+   "e": 26.179,
+   "scene": 4
+  },
+  {
+   "w": "kita",
+   "s": 26.219,
+   "e": 26.659,
+   "scene": 4
+  },
+  {
+   "w": "nangkep",
+   "s": 26.739,
+   "e": 27.179,
+   "scene": 4
+  },
+  {
+   "w": "sekitar",
+   "s": 27.219,
+   "e": 27.699,
+   "scene": 4
+  },
+  {
+   "w": "60",
+   "s": 27.779,
+   "e": 28.019,
+   "scene": 4
+  },
+  {
+   "w": "kedipan",
+   "s": 28.099,
+   "e": 28.739,
+   "scene": 4
+  },
+  {
+   "w": "per",
+   "s": 28.819,
+   "e": 28.899,
+   "scene": 4
+  },
+  {
+   "w": "detik.",
+   "s": 29.019,
+   "e": 29.779,
+   "scene": 4
+  },
+  {
+   "w": "Lalat?",
+   "s": 29.819,
+   "e": 30.579,
+   "scene": 4
+  },
+  {
+   "w": "250.",
+   "s": 30.619,
+   "e": 32.419,
+   "scene": 4
+  },
+  {
+   "w": "Empat",
+   "s": 32.499,
+   "e": 32.659,
+   "scene": 4
+  },
+  {
+   "w": "kali",
+   "s": 32.739,
+   "e": 32.979,
+   "scene": 4
+  },
+  {
+   "w": "lipat,",
+   "s": 33.059,
+   "e": 33.939,
+   "scene": 4
+  },
+  {
+   "w": "gila",
+   "s": 34.019,
+   "e": 34.499,
+   "scene": 4
+  },
+  {
+   "w": "sih.",
+   "s": 34.579,
+   "e": 35.219,
+   "scene": 4
+  },
+  {
+   "w": "Jadi",
+   "s": 35.713,
+   "e": 36.113,
+   "scene": 5
+  },
+  {
+   "w": "pas",
+   "s": 36.273,
+   "e": 36.433,
+   "scene": 5
+  },
+  {
+   "w": "lo",
+   "s": 36.473,
+   "e": 36.513,
+   "scene": 5
+  },
+  {
+   "w": "ngayun",
+   "s": 36.553,
+   "e": 36.833,
+   "scene": 5
+  },
+  {
+   "w": "tangan,",
+   "s": 36.913,
+   "e": 37.633,
+   "scene": 5
+  },
+  {
+   "w": "buat",
+   "s": 37.753,
+   "e": 37.873,
+   "scene": 5
+  },
+  {
+   "w": "dia",
+   "s": 37.953,
+   "e": 38.113,
+   "scene": 5
+  },
+  {
+   "w": "tuh",
+   "s": 38.153,
+   "e": 38.273,
+   "scene": 5
+  },
+  {
+   "w": "kayak",
+   "s": 38.313,
+   "e": 38.513,
+   "scene": 5
+  },
+  {
+   "w": "nonton",
+   "s": 38.553,
+   "e": 38.833,
+   "scene": 5
+  },
+  {
+   "w": "video",
+   "s": 38.913,
+   "e": 39.233,
+   "scene": 5
+  },
+  {
+   "w": "yang",
+   "s": 39.313,
+   "e": 39.473,
+   "scene": 5
+  },
+  {
+   "w": "di-slow.",
+   "s": 39.513,
+   "e": 40.513,
+   "scene": 5
+  },
+  {
+   "w": "Santai",
+   "s": 40.553,
+   "e": 41.073,
+   "scene": 5
+  },
+  {
+   "w": "banget,",
+   "s": 41.153,
+   "e": 41.673,
+   "scene": 5
+  },
+  {
+   "w": "you",
+   "s": 41.713,
+   "e": 41.793,
+   "scene": 5
+  },
+  {
+   "w": "know.",
+   "s": 41.913,
+   "e": 42.433,
+   "scene": 5
+  },
+  {
+   "w": "Terus,",
+   "s": 42.929,
+   "e": 43.729,
+   "scene": 6
+  },
+  {
+   "w": "dalam",
+   "s": 43.769,
+   "e": 44.049,
+   "scene": 6
+  },
+  {
+   "w": "sepersepuluh",
+   "s": 44.129,
+   "e": 44.569,
+   "scene": 6
+  },
+  {
+   "w": "detik,",
+   "s": 44.609,
+   "e": 45.329,
+   "scene": 6
+  },
+  {
+   "w": "dia",
+   "s": 45.449,
+   "e": 45.569,
+   "scene": 6
+  },
+  {
+   "w": "udah",
+   "s": 45.649,
+   "e": 45.809,
+   "scene": 6
+  },
+  {
+   "w": "nge-plan",
+   "s": 45.889,
+   "e": 46.209,
+   "scene": 6
+  },
+  {
+   "w": "rute",
+   "s": 46.249,
+   "e": 46.449,
+   "scene": 6
+  },
+  {
+   "w": "kabur.",
+   "s": 46.529,
+   "e": 47.409,
+   "scene": 6
+  },
+  {
+   "w": "Arah",
+   "s": 47.449,
+   "e": 47.649,
+   "scene": 6
+  },
+  {
+   "w": "lompatnya",
+   "s": 47.689,
+   "e": 48.209,
+   "scene": 6
+  },
+  {
+   "w": "pun",
+   "s": 48.289,
+   "e": 48.449,
+   "scene": 6
+  },
+  {
+   "w": "udah",
+   "s": 48.529,
+   "e": 48.689,
+   "scene": 6
+  },
+  {
+   "w": "diitung.",
+   "s": 48.769,
+   "e": 49.569,
+   "scene": 6
+  },
+  {
+   "w": "Kayak...",
+   "s": 49.649,
+   "e": 50.529,
+   "scene": 6
+  },
+  {
+   "w": "se-niat",
+   "s": 50.609,
+   "e": 51.009,
+   "scene": 6
+  },
+  {
+   "w": "itu.",
+   "s": 51.089,
+   "e": 52.049,
+   "scene": 6
+  },
+  {
+   "w": "Triknya?",
+   "s": 52.548,
+   "e": 53.388,
+   "scene": 7
+  },
+  {
+   "w": "Jangan",
+   "s": 53.668,
+   "e": 53.988,
+   "scene": 7
+  },
+  {
+   "w": "target",
+   "s": 54.068,
+   "e": 54.388,
+   "scene": 7
+  },
+  {
+   "w": "tempat",
+   "s": 54.508,
+   "e": 54.708,
+   "scene": 7
+  },
+  {
+   "w": "dia",
+   "s": 54.828,
+   "e": 54.948,
+   "scene": 7
+  },
+  {
+   "w": "diem.",
+   "s": 55.028,
+   "e": 55.588,
+   "scene": 7
+  },
+  {
+   "w": "Arahin",
+   "s": 55.828,
+   "e": 56.148,
+   "scene": 7
+  },
+  {
+   "w": "dikit",
+   "s": 56.228,
+   "e": 56.548,
+   "scene": 7
+  },
+  {
+   "w": "ke",
+   "s": 56.588,
+   "e": 56.628,
+   "scene": 7
+  },
+  {
+   "w": "depannya,",
+   "s": 56.708,
+   "e": 57.428,
+   "scene": 7
+  },
+  {
+   "w": "ke",
+   "s": 57.468,
+   "e": 57.508,
+   "scene": 7
+  },
+  {
+   "w": "tempat",
+   "s": 57.588,
+   "e": 57.908,
+   "scene": 7
+  },
+  {
+   "w": "dia",
+   "s": 57.988,
+   "e": 58.148,
+   "scene": 7
+  },
+  {
+   "w": "bakal",
+   "s": 58.228,
+   "e": 58.388,
+   "scene": 7
+  },
+  {
+   "w": "lompat.",
+   "s": 58.428,
+   "e": 59.068,
+   "scene": 7
+  },
+  {
+   "w": "Make",
+   "s": 59.268,
+   "e": 59.428,
+   "scene": 7
+  },
+  {
+   "w": "sense",
+   "s": 59.508,
+   "e": 59.748,
+   "scene": 7
+  },
+  {
+   "w": "kan?",
+   "s": 59.828,
+   "e": 60.148,
+   "scene": 7
+  },
+  {
+   "w": "Tapi",
+   "s": 60.625,
+   "e": 60.865,
+   "scene": 8
+  },
+  {
+   "w": "jujurly,",
+   "s": 60.945,
+   "e": 62.145,
+   "scene": 8
+  },
+  {
+   "w": "menurut",
+   "s": 62.225,
+   "e": 62.545,
+   "scene": 8
+  },
+  {
+   "w": "gue",
+   "s": 62.625,
+   "e": 63.025,
+   "scene": 8
+  },
+  {
+   "w": "raket",
+   "s": 63.185,
+   "e": 63.425,
+   "scene": 8
+  },
+  {
+   "w": "nyamuk",
+   "s": 63.505,
+   "e": 63.825,
+   "scene": 8
+  },
+  {
+   "w": "tetep",
+   "s": 63.905,
+   "e": 64.225,
+   "scene": 8
+  },
+  {
+   "w": "the",
+   "s": 64.265,
+   "e": 64.305,
+   "scene": 8
+  },
+  {
+   "w": "real",
+   "s": 64.465,
+   "e": 64.785,
+   "scene": 8
+  },
+  {
+   "w": "MVP.",
+   "s": 64.945,
+   "e": 65.905,
+   "scene": 8
+  },
+  {
+   "w": "Soalnya...",
+   "s": 66.025,
+   "e": 67.265,
+   "scene": 8
+  }
+ ]
+}
